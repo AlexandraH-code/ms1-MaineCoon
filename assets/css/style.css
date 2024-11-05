@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #F8FBE4;
+    background-color: whitesmoke;
 }
 
 h1 {
@@ -21,7 +21,21 @@ p {
     color: #F8FBE4;
 }
 
+#header {
+    padding-top: 15px;
+}
+
 /* Footer */
-footer {
+#footer {
     background-color: #3B3026;
+    color: #F8FBE4;
+}
+
+footer a {
+    color: #F8FBE4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8F6D3F; 
 }
