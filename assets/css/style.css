@@ -1,8 +1,16 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    background-color: darkseagreen;
+    background-color: #F8FBE4;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: cornflowerblue;
+    font-family: "Berkshire Swash", serif;
+    color: #001200;
+}
+
+p {
+    font-family: "Raleway", serif;
+    color: #867369;
 }
