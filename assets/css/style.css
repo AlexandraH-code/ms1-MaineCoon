@@ -22,6 +22,10 @@ p {
     /*color: #F8FBE4;*/
 }
 
+#navbar .logo {
+    width: 30px;
+}
+
 #header {
     padding: 15px;
 }
@@ -34,13 +38,24 @@ img {
 /* Footer */
 #social-links {
     background-color: #3B3026;
+   /* color: #F8FBE4;*/
+    padding: 1rem;
+}
+
+#social-links i {
     color: #F8FBE4;
-    padding-bottom: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#social-links i:hover {
+    color: #8F6D3F; 
 }
 
 #social-links a {
     color: #F8FBE4;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 #social-links a:hover {
