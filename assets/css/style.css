@@ -8,22 +8,32 @@ body {
 
 h1 {
     font-family: "Berkshire Swash", serif;
-    color: #001200;
+    /*color: #001200;*/
+    color: #3B3026;
 }
 
 p {
     font-family: "Raleway", serif;
     color: #867369;
+    font-weight: bold;
 }
 
 /* Navbar */ 
 #navbar {
     background-color: #3B3026;
-    /*color: #F8FBE4;*/
+    text-transform: uppercase;
 }
 
 #navbar .logo {
     width: 30px;
+}
+
+#navbar li * {
+    color: #F8FBE4;
+}
+
+#navbar li:hover * {
+    color: #8F6D3F; 
 }
 
 #header {
