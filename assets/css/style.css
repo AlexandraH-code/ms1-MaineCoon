@@ -14,8 +14,15 @@ h1 {
 
 p {
     font-family: "Raleway", serif;
+    /*color: #867369;*/
+    color: #3B3026;
+    /*font-weight: bold;
+    font-size: 1.2rem;*/
+}
+
+.lead {
+    font-family: "Berkshire Swash", serif;
     color: #867369;
-    font-weight: bold;
 }
 
 /* Navbar */ 
