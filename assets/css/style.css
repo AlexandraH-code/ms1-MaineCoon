@@ -4,6 +4,7 @@
 body {
     background-color: whitesmoke;
     padding-top: 56px;
+    overflow-y: scroll;
 }
 
 h1 {
@@ -51,6 +52,11 @@ img {
     width: 100%;
     height: auto;
   }
+
+#start-info p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 
 /* Footer */
 #social-links {
