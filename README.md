@@ -9,7 +9,6 @@ On this page you are going to find all you need to know about the Maine Coon - o
   * [Features](#features)
     * [Existing Features](#existing-features)
     * [Features Left to Implement](#features-left-to-implement)
-  * [Technologies Used](#technologies-used)
   * [Testing](#testing)
     * [Validator Testing](#validator-testing)
     * [Unfixed Bugs](#unfixed-bugs)
