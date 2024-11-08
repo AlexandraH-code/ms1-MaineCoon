@@ -1,10 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*html {
-    overflow-y: scroll;
-}*/
-
 html, body {
     margin: 0;
     padding: 0;
@@ -17,7 +13,6 @@ html {
 body {
     background-color: whitesmoke;
     padding-top: 56px;
-    /*overflow-y: scroll;*/
 }
 
 h1 {
@@ -43,6 +38,7 @@ p {
 #navbar {
     background-color: #3B3026;
     text-transform: uppercase;
+    /*background: url("../images/Sunbeam_20240624.jpg") no-repeat center center/cover;*/
 }
 
 #navbar .logo {
@@ -58,7 +54,7 @@ p {
 }
 
 #header {
-    padding: 15px;
+    padding: 20px;
 }
 
 img {
@@ -71,6 +67,12 @@ img {
     margin-bottom: 20px;
 }
 
+.hero {
+    height: 300px;
+    width: 100%;
+    background: url("../images/Sunbeam_20240624.jpg") no-repeat center center/cover;
+    position: relative;
+}
 /* Footer */
 #social-links {
     background-color: #3B3026;
