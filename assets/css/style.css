@@ -1,8 +1,17 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-html {
+/*html {
     overflow-y: scroll;
+}*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
