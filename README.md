@@ -40,6 +40,7 @@ On this page you are going to find all you need to know about the Maine Coon - o
 
 ## Deployment
 [(Back to top)](#index--table-of-contents)
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
