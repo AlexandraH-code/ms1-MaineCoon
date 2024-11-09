@@ -18,22 +18,22 @@ body {
 
 h1 {
     font-family: "Berkshire Swash", serif;
-    /*color: #001200;*/
     color: #3B3026;
 }
 
 p {
     font-family: "Raleway", serif;
-    /*color: #867369;*/
     color: #3B3026;
-    /*font-weight: bold;
-    font-size: 1.2rem;*/
 }
 
 .lead {
     font-family: "Berkshire Swash", serif;
     color: #867369;
 }
+
+/*.section {
+    padding-top: 1rem; /* prevent navbar overlap */
+/*}*/
 
 /* Navbar */ 
 #navbar {
@@ -59,18 +59,22 @@ p {
 }
 
 #header img {
-    max-width: 100%;
-    height: 200px;
-}
-
-img {
+    /*max-width: 100%;
+    height: 200px;*/
     max-width: 100%;
     height: auto;
-  }
+}
+
+/*img {
+    max-width: 100%;
+    height: auto;
+  }*/
 
 #start-info p {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .hero {
@@ -79,17 +83,19 @@ img {
     background: url("../images/Sunbeam_20240624.jpg") no-repeat center center/cover;
     position: relative;
 }
+
 /* Footer */
 #social-links {
     background-color: #3B3026;
    /* color: #F8FBE4;*/
-    padding: 1rem;
+    /*padding-top: 10px;*/
 }
 
 #social-links i {
     color: #F8FBE4;
     text-decoration: none;
     font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 #social-links i:hover {
