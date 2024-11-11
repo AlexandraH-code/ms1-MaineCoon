@@ -61,7 +61,7 @@ p {
     margin-top: 20px;
 }
 
-/* The Jumbotron 
+/* The Jumbotron */
 .bg-image {
     height: 500px;
     width: 100%;
@@ -69,7 +69,21 @@ p {
     background-repeat: no-repeat;
     background-size: cover; 
     background-color: #F8FBE4;
-}*/
+}
+
+#jumbotron-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(248, 251, 228, 0.3);
+    /*font-size: 130%;*/
+    position: absolute;
+    bottom: 380px;
+    left: 15px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 4px #ffffff;
+}
 
 /*#header img {
     /*max-width: 100%;
@@ -88,7 +102,7 @@ img {
     margin-bottom: 25px;*/
     /*font-size: 1.2rem;*/
     color:#3B3026; 
-    font-weight: normal;
+    font-weight: bold;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -131,15 +145,37 @@ img {
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
+    #jumbotron-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(248, 251, 228, 0.3);
+    /*font-size: 130%;*/
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #ffffff;
+    }
 }
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
-    #navbar {
-        background-color: #3B3026;
-        text-transform: uppercase;
-        font-size: 1.3rem;
+    #jumbotron-text {
+        /* Final rgba value sets the opacity so it is semi-transparent */
+        background-color: rgba(248, 251, 228, 0.3);
+        /*font-size: 130%;*/
+        position: absolute;
+        bottom: 230px;
+        left: 0px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 30px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px #ffffff;
     }
 
     #start-info p {
@@ -147,23 +183,10 @@ img {
         margin-bottom: 25px;*/
         /*font-size: 1.2rem;*/
         color:#3B3026; 
-        font-weight: lighter;
+        font-weight: bold;
         font-size: 1.5rem;
         padding-top: 40px;
         padding-bottom: 10px;
-    }
-
-    #social-links i {
-        color: #F8FBE4;
-        text-decoration: none;
-        font-size: 2.5rem;
-        margin-right: 10px;
-    }
-
-    #social-links a {
-        color: #F8FBE4;
-        text-decoration: none;
-        font-size: 1.3rem;
     }
 }
 
@@ -175,19 +198,30 @@ img {
         font-size: 1.5rem;
     }
 
-    #header img {
-        max-width: 600px;
-        max-height: auto;
+    #jumbotron-text {
+        /* Final rgba value sets the opacity so it is semi-transparent */
+        background-color: rgba(248, 251, 228, 0.3);
+        /*font-size: 130%;*/
+        position: absolute;
+        bottom: 370px;
+        left: -250px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 30px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px #ffffff;
     }
 
     #start-info p {
         /*margin-top: 15px;
         margin-bottom: 25px;*/
+        /*font-size: 1.2rem;*/
         color:#3B3026; 
-        /*font-weight: bold;*/
+        font-weight: bold;
         font-size: 2rem;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 80px;
+        padding-bottom: 10px;
     }
 
     #social-links i {
@@ -203,4 +237,3 @@ img {
         font-size: 1.5rem;
     }
 }
-
