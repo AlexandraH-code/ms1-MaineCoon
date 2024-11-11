@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #F8FBE4;
     padding-top: 56px;
 }
 
@@ -29,6 +29,28 @@ p {
 .lead {
     font-family: "Berkshire Swash", serif;
     color: #867369;
+}
+
+/* The Jumbotron */
+.bg-image {
+    height: 600px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #F8FBE4;
+}
+
+#jumbotron-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    /*font-size: 130%;*/
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 /*.section {
@@ -58,12 +80,12 @@ p {
     padding: 20px;
 }
 
-#header img {
+/*#header img {
     /*max-width: 100%;
     height: 200px;*/
-    max-width: 100%;
+    /*max-width: 100%;
     height: auto;
-}
+}*/
 
 /*img {
     max-width: 100%;
@@ -77,12 +99,12 @@ p {
     font-weight: bold;
 }
 
-.hero {
+/*.hero {
     height: 300px;
     width: 100%;
     background: url("../images/Sunbeam_20240624.jpg") no-repeat center center/cover;
     position: relative;
-}
+}*/
 
 /* Footer */
 #social-links {
@@ -111,3 +133,17 @@ p {
 #social-links a:hover {
     color: #8F6D3F; 
 }
+
+/* Media queries */
+@media screen and (min-width: 992px) {
+    #jumbotron-text {
+        /* Final rgba value sets the opacity so it is semi-transparent */
+        background-color: rgba(107, 185, 241, 0.7);
+        /*font-size: 130%;*/
+        position: absolute;
+        bottom: 152px;
+        width: 80%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
