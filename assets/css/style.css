@@ -27,7 +27,7 @@ p {
     color: #3B3026;
 }
 
-.lead {
+#header .lead {
     font-family: "Berkshire Swash", serif;
     color: #867369;
 }
@@ -127,6 +127,11 @@ img {
 
 #social-links a:hover {
     color: #8F6D3F; 
+}
+
+/* Before You Buy A Cat - CSS */
+#before_cat_info {
+    margin-top: 20px;
 }
 
 /* Media queries */
