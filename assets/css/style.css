@@ -32,9 +32,10 @@ p {
     color: #867369;
 }
 
-/*.section {
-    padding-top: 1rem; /* prevent navbar overlap */
-/*}*/
+.section {
+    /*padding-top: 1rem; /* prevent navbar overlap */
+    padding-top: 1rem;
+}
 
 /* Navbar */ 
 #navbar {
