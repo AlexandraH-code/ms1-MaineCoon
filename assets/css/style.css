@@ -78,7 +78,7 @@ p {
     /*max-width: 100%;
     /*margin-left: 10px;
     margin-right: 10px;*/
-    margin-top: 20px;
+    padding-top: 30px;
 }
 
 /* The Jumbotron 
@@ -109,8 +109,8 @@ img {
     /*font-size: 1.2rem;*/
     color:#3B3026; 
     font-weight: normal;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    /*padding-top: 20px;*/
+    padding-bottom: 40px;
 }
 
 section {
