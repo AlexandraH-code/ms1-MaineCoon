@@ -56,11 +56,6 @@ p {
     color: #8F6D3F; 
 }
 
-.section {
-    /*padding-top: 1rem; /* prevent navbar overlap */
-    padding-top: 1rem;
-}
-
 /* Navbar */ 
 #navbar {
     background-color: #3B3026;
@@ -118,6 +113,10 @@ img {
     padding-bottom: 10px;
 }
 
+section {
+    padding-top: 68px; /* prevent navbar overlap on pages where you click on an internal link */
+}
+
 /*.hero {
     height: 300px;
     width: 100%;
@@ -160,6 +159,10 @@ img {
     padding-right: 20px;
 }
 
+#before_cat_decision {
+    padding-top: 20px;
+}
+
 #before_cat_buying {
     padding-bottom: 20px;
 }
@@ -175,7 +178,7 @@ img {
     #navbar {
         background-color: #3B3026;
         text-transform: uppercase;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     #start-info p {
@@ -199,7 +202,7 @@ img {
     #social-links a {
         color: #F8FBE4;
         text-decoration: none;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -236,6 +239,17 @@ img {
     #social-links a {
         color: #F8FBE4;
         text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    /* Before You Buy A Cat - CSS */
+    #header a {
+        text-decoration: none;
+        color:#3B3026;
+        font-size: 1.5rem;
+    }
+
+    #before_cat_decision .lead {
         font-size: 1.5rem;
     }
 }
