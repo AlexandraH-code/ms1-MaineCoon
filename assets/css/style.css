@@ -167,6 +167,34 @@ section {
     padding-bottom: 20px;
 }
 
+/* About The Maine Coon - CSS */
+
+#mc_info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mc_info img {
+    width: 400px;
+    height: auto;
+}
+
+#mc_info .card {
+    margin-bottom: 10px;
+}
+
+#mc_info .card-header {
+    color:deeppink;
+    background-color: aqua;
+    border-top-style: groove;
+    border-color: rgb(62, 195, 150);
+    border-width: 10px;
+}
+
+#mc_info .card-text {
+    font-size: 1.2rem;
+}
+
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
