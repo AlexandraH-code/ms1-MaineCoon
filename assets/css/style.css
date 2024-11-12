@@ -181,14 +181,14 @@ section {
 
 #mc_info .card {
     margin-bottom: 10px;
+    border-top-style: dashed;
+    border-top-color: rgb(62, 195, 150);
+    border-top-width: 10px;
 }
 
 #mc_info .card-header {
     color:deeppink;
     background-color: aqua;
-    border-top-style: groove;
-    border-color: rgb(62, 195, 150);
-    border-width: 10px;
 }
 
 #mc_info .card-text {
