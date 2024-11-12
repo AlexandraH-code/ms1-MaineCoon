@@ -17,19 +17,43 @@ body {
     padding-top: 56px;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Berkshire Swash", serif;
+}
+
+h1,
+h2 {
     color: #3B3026;
+}
+
+h3 {
+    color: #60533E;
+}
+
+h4 {
+    color: #6A512F
 }
 
 p {
     font-family: "Raleway", serif;
-    color: #3B3026;
+    color: #160900;
 }
 
 #header .lead {
     font-family: "Berkshire Swash", serif;
     color: #867369;
+}
+
+#header a {
+    text-decoration: none;
+    color:#3B3026;
+}
+
+#header a:hover {
+    color: #8F6D3F; 
 }
 
 .section {
@@ -132,9 +156,8 @@ img {
 /* Before You Buy A Cat - CSS */
 #before_cat_decision,
 #before_cat_buying {
-    margin-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 20px 0px;
+    padding: 0px 15px;
 }
 
 /* Media queries */
