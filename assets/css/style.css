@@ -156,8 +156,19 @@ img {
 /* Before You Buy A Cat - CSS */
 #before_cat_decision,
 #before_cat_buying {
-    margin: 20px 0px;
-    padding: 0px 15px;
+    /*margin: 20px 0px;*/
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+}
+
+#before_cat_decision {
+    /*margin-top: 20px;*/
+}
+
+#before_cat_decision,
+#before_cat_buying {
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 /* Media queries */
