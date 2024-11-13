@@ -47,15 +47,6 @@ p {
     color: #867369;
 }
 
-#header a {
-    text-decoration: none;
-    color:#3B3026;
-}
-
-#header a:hover {
-    color: #8F6D3F; 
-}
-
 /* Navbar */ 
 #navbar {
     background-color: #3B3026;
@@ -167,41 +158,69 @@ section {
     padding-bottom: 20px;
 }
 
-/* About The Maine Coon - CSS */
-
-#mc_info {
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 20px;
-    /*display: flex;
-    justify-content: center;*/
+/* Before You Buy A Cat and About The Maine Coon header menu */
+.about_the_mc_links,
+.before_cat_links {
+    color: aqua;
 }
 
-#mc_info img {
-    width: 400px;
-    height: auto;
+.about_the_mc_links li,
+.before_cat_links li {
+    list-style-type:none;
 }
 
-#mc_info .card {
-    margin-bottom: 10px;
-    border-top-style: solid;
-    border-top-color: rgb(195, 62, 69);
-    border-top-width: 10px;
+.about_the_mc_links a,
+.before_cat_links a {
+    text-decoration: none;
+    /*color:#3B3026;*/
+    color:aquamarine;
 }
 
-#mc_info .card-header {
+.about_the_mc_links a:hover,
+.before_cat_links a:hover {
+    /*color: #8F6D3F; */
     color:deeppink;
-    background-color: aqua;
 }
 
-#mc_info .card-text {
-    font-size: 1.2rem;
+/* About The Maine Coon - CSS */
+#shorter_facts,
+#origin,
+#appearance,
+#personality,
+#health,
+#nutrition_and_feeding,
+#fur_care,
+#child_friendliness {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#child_friendliness {
+    padding-bottom: 20px;
+}
+
+/*#shorter_facts {
+    padding-top: 20px;
+}*/
+
+#shorter_facts li {
+    list-style-type: none;
 }
 
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* About The Maine Coon - CSS */
 
+    #shorter_facts h2 {
+        text-align: center;
+        padding-bottom: 0.8rem;
+
+    }
+
+    #shorter_facts ul {
+        text-align: center;
+    }
 }
 
 /* Media query: laptops and desktops (992px and up) */
@@ -234,6 +253,13 @@ section {
         color: #F8FBE4;
         text-decoration: none;
         font-size: 1.1rem;
+    }
+
+    /* About The Maine Coon - CSS */
+
+    #shorter_facts h2 {
+        text-align: center;
+        padding-bottom: 1rem;
     }
 }
 

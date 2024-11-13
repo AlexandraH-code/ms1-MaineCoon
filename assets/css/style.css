@@ -65,11 +65,30 @@ p {
     color: #8F6D3F; 
 }
 
+/* Styling of the header */
 #header {
     /*max-width: 100%;
     /*margin-left: 10px;
     margin-right: 10px;*/
     padding-top: 30px;
+}
+
+/* Styling of lists and links in the header */
+/* Before You Buy A Cat and About The Maine Coon header menu */
+#header .about_the_mc_links li,
+#header .before_cat_links li {
+    list-style-type:none;
+}
+
+#header .about_the_mc_links a,
+#header .before_cat_links a {
+    text-decoration: none;
+    color:#3B3026;
+}
+
+#header .about_the_mc_links a:hover,
+#header .before_cat_links a:hover {
+    color: #8F6D3F;
 }
 
 /* The Jumbotron 
@@ -156,27 +175,6 @@ section {
 
 #before_cat_buying {
     padding-bottom: 20px;
-}
-
-/* Before You Buy A Cat and About The Maine Coon header menu */
-.about_the_mc_links ul li,
-.before_cat_links ul li {
-    list-style-type:none;
-    color: aqua;
-}
-
-.about_the_mc_links a,
-.before_cat_links a {
-    font-family: "Raleway", serif;
-    text-decoration: none;
-    /*color:#3B3026;*/
-    color:aquamarine;
-}
-
-.about_the_mc_links a:hover,
-.before_cat_links a:hover {
-    /*color: #8F6D3F; */
-    color:deeppink;
 }
 
 /* About The Maine Coon - CSS */
