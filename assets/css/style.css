@@ -202,6 +202,12 @@ section {
     list-style-type: none;
 }
 
+/* Gallery CSS */
+#image_gallery {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
