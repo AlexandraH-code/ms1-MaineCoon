@@ -81,24 +81,6 @@ p {
     padding-top: 30px;
 }
 
-/* The Bootstrap card in the header on about_the_mc.html */
-#header .card {
-    margin-bottom: 10px;
-    border-top-style: solid;
-    border-top-color: rgb(195, 62, 69);
-    border-top-width: 10px;
-    /*width: 100%;*/
-}
-
-#header .card-header {
-    color:deeppink;
-    background-color: aqua;
-}
-
-#header .card-text {
-    font-size: 1.2rem;
-}
-
 /* The Jumbotron 
 .bg-image {
     height: 500px;
