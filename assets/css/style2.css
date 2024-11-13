@@ -17,24 +17,44 @@ body {
     padding-top: 56px;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
     font-family: "Berkshire Swash", serif;
+}
+
+h1,
+h2 {
     color: #3B3026;
+}
+
+h3 {
+    color: #60533E;
+}
+
+h4 {
+    color: #6A512F
 }
 
 p {
     font-family: "Raleway", serif;
-    color: #3B3026;
+    color: #160900;
 }
 
-.lead {
+#header .lead {
     font-family: "Berkshire Swash", serif;
     color: #867369;
 }
 
-/*.section {
-    padding-top: 1rem; /* prevent navbar overlap */
-/*}*/
+#header a {
+    text-decoration: none;
+    color:#3B3026;
+}
+
+#header a:hover {
+    color: #8F6D3F; 
+}
 
 /* Navbar */ 
 #navbar {
@@ -58,10 +78,28 @@ p {
     /*max-width: 100%;
     /*margin-left: 10px;
     margin-right: 10px;*/
-    margin-top: 20px;
+    padding-top: 30px;
 }
 
-/* The Jumbotron */
+/* The Bootstrap card in the header on about_the_mc.html */
+#header .card {
+    margin-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(195, 62, 69);
+    border-top-width: 10px;
+    /*width: 100%;*/
+}
+
+#header .card-header {
+    color:deeppink;
+    background-color: aqua;
+}
+
+#header .card-text {
+    font-size: 1.2rem;
+}
+
+/* The Jumbotron 
 .bg-image {
     height: 500px;
     width: 100%;
@@ -69,21 +107,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover; 
     background-color: #F8FBE4;
-}
-
-#jumbotron-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(248, 251, 228, 0.3);
-    /*font-size: 130%;*/
-    position: absolute;
-    bottom: 380px;
-    left: 15px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 30px;
-    padding-left: 10px;
-    text-shadow: 2px 2px 4px #ffffff;
-}
+}*/
 
 /*#header img {
     /*max-width: 100%;
@@ -102,9 +126,13 @@ img {
     margin-bottom: 25px;*/
     /*font-size: 1.2rem;*/
     color:#3B3026; 
-    font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    font-weight: normal;
+    /*padding-top: 20px;*/
+    padding-bottom: 40px;
+}
+
+section {
+    padding-top: 68px; /* prevent navbar overlap on pages where you click on an internal link */
 }
 
 /*.hero {
@@ -142,40 +170,64 @@ img {
     color: #8F6D3F; 
 }
 
+/* Before You Buy A Cat - CSS */
+#before_cat_decision,
+#before_cat_buying {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#before_cat_decision {
+    padding-top: 20px;
+}
+
+#before_cat_buying {
+    padding-bottom: 20px;
+}
+
+/* About The Maine Coon - CSS */
+
+#mc_info {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 20px;
+    /*display: flex;
+    justify-content: center;*/
+}
+
+#mc_info img {
+    width: 400px;
+    height: auto;
+}
+
+#mc_info .card {
+    margin-bottom: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(195, 62, 69);
+    border-top-width: 10px;
+}
+
+#mc_info .card-header {
+    color:deeppink;
+    background-color: aqua;
+}
+
+#mc_info .card-text {
+    font-size: 1.2rem;
+}
+
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    #jumbotron-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(248, 251, 228, 0.3);
-    /*font-size: 130%;*/
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 30px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 4px #ffffff;
-    }
+
 }
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
-    #jumbotron-text {
-        /* Final rgba value sets the opacity so it is semi-transparent */
-        background-color: rgba(248, 251, 228, 0.3);
-        /*font-size: 130%;*/
-        position: absolute;
-        bottom: 230px;
-        left: 0px;
-        width: 80%;
-        min-height: 200px;
-        padding-top: 30px;
-        padding-left: 10px;
-        margin-bottom: 10px;
-        text-shadow: 2px 2px 4px #ffffff;
+    #navbar {
+        background-color: #3B3026;
+        text-transform: uppercase;
+        font-size: 1.1rem;
     }
 
     #start-info p {
@@ -183,10 +235,23 @@ img {
         margin-bottom: 25px;*/
         /*font-size: 1.2rem;*/
         color:#3B3026; 
-        font-weight: bold;
+        font-weight: lighter;
         font-size: 1.5rem;
         padding-top: 40px;
         padding-bottom: 10px;
+    }
+
+    #social-links i {
+        color: #F8FBE4;
+        text-decoration: none;
+        font-size: 2.5rem;
+        margin-right: 10px;
+    }
+
+    #social-links a {
+        color: #F8FBE4;
+        text-decoration: none;
+        font-size: 1.1rem;
     }
 }
 
@@ -198,30 +263,19 @@ img {
         font-size: 1.5rem;
     }
 
-    #jumbotron-text {
-        /* Final rgba value sets the opacity so it is semi-transparent */
-        background-color: rgba(248, 251, 228, 0.3);
-        /*font-size: 130%;*/
-        position: absolute;
-        bottom: 370px;
-        left: -250px;
-        width: 80%;
-        min-height: 200px;
-        padding-top: 30px;
-        padding-left: 10px;
-        margin-bottom: 10px;
-        text-shadow: 2px 2px 4px #ffffff;
+    #header img {
+        max-width: 600px;
+        max-height: auto;
     }
 
     #start-info p {
         /*margin-top: 15px;
         margin-bottom: 25px;*/
-        /*font-size: 1.2rem;*/
         color:#3B3026; 
-        font-weight: bold;
+        /*font-weight: bold;*/
         font-size: 2rem;
-        padding-top: 80px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #social-links i {
@@ -236,4 +290,16 @@ img {
         text-decoration: none;
         font-size: 1.5rem;
     }
+
+    /* Before You Buy A Cat - CSS */
+    #header a {
+        text-decoration: none;
+        color:#3B3026;
+        font-size: 1.5rem;
+    }
+
+    #before_cat_decision .lead {
+        font-size: 1.5rem;
+    }
 }
+

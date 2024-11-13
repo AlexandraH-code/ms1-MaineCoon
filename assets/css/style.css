@@ -170,8 +170,11 @@ section {
 /* About The Maine Coon - CSS */
 
 #mc_info {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 20px;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 #mc_info img {
@@ -181,8 +184,8 @@ section {
 
 #mc_info .card {
     margin-bottom: 10px;
-    border-top-style: dashed;
-    border-top-color: rgb(62, 195, 150);
+    border-top-style: solid;
+    border-top-color: rgb(195, 62, 69);
     border-top-width: 10px;
 }
 
