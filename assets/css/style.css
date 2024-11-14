@@ -42,6 +42,7 @@ p {
     color: #160900;
 }
 
+/* The paragraph with lead class in the header of the start page */
 #header .lead {
     font-family: "Berkshire Swash", serif;
     color: #867369;
@@ -113,6 +114,7 @@ img {
     height: auto;
   }
 
+/* Text on the start page */
 #start-info p {
     /*margin-top: 15px;
     margin-bottom: 25px;*/
@@ -211,6 +213,13 @@ section {
 
 #image_gallery img {
     padding-bottom: 1rem;
+}
+
+/* Contact CSS */
+#contact_form {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 /* Media queries */
