@@ -223,6 +223,19 @@ section {
     padding-bottom: 20px;
 }
 
+.custom-button-outline {
+    /*border: 3px solid #3B3026;*/
+    border: 3px solid #3B3026;
+    padding: 7px 25px;
+    /*color: #8F6D3F;*/
+    color:#3B3026;
+}
+
+.custom-button-outline:hover {
+    background-color: #3B3026;; 
+    color: #F8FBE4;
+}
+
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
