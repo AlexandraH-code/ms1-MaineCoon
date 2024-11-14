@@ -223,6 +223,14 @@ section {
     padding-bottom: 20px;
 }
 
+/* Newsletter CSS */
+#newsletter_form {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* Buttons in the contact and newsletter form */
 .custom-button-outline {
     /*border: 3px solid #3B3026;*/
     border: 3px solid #3B3026;
