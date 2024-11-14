@@ -216,7 +216,8 @@ section {
 }
 
 /* Contact CSS */
-#contact_form {
+#contact_form, 
+#contact_confirmation {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
