@@ -1,9 +1,15 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-html, body {
+/*html, body {
     margin: 0;
     padding: 0;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 html {
@@ -139,8 +145,8 @@ section {
 /* Footer */
 #social-links {
     background-color: #3B3026;
-   /* color: #F8FBE4;*/
-    /*padding-top: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #social-links i {
@@ -247,6 +253,14 @@ section {
 /* Media queries */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Paragraph on the start page */ 
+    #start-info p {
+        color:#3B3026; 
+        font-weight: normal;
+        font-size: 1.2rem;
+        padding-bottom: 40px;
+    }
+
     /* About The Maine Coon - CSS */
 
     #shorter_facts h2 {
@@ -265,18 +279,14 @@ section {
     #navbar {
         background-color: #3B3026;
         text-transform: uppercase;
+        font-weight: bold;
         font-size: 1.1rem;
     }
 
     #start-info p {
-        /*margin-top: 15px;
-        margin-bottom: 25px;*/
-        /*font-size: 1.2rem;*/
         color:#3B3026; 
-        font-weight: lighter;
-        font-size: 1.5rem;
-        padding-top: 40px;
-        padding-bottom: 10px;
+        font-weight: normal;
+        font-size: 1.5rem;     
     }
 
     #social-links i {
@@ -290,6 +300,7 @@ section {
         color: #F8FBE4;
         text-decoration: none;
         font-size: 1.1rem;
+        text-transform: uppercase;
     }
 
     /* About The Maine Coon - CSS */
@@ -314,13 +325,8 @@ section {
     }
 
     #start-info p {
-        /*margin-top: 15px;
-        margin-bottom: 25px;*/
         color:#3B3026; 
-        /*font-weight: bold;*/
         font-size: 2rem;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     #social-links i {
