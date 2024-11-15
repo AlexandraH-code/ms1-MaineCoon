@@ -32,7 +32,8 @@ h4 {
 
 h1,
 h2 {
-    color: #3B3026;
+    /*color: #3B3026;*/
+    color: #523E33;
 }
 
 h3 {
@@ -45,18 +46,21 @@ h4 {
 
 p {
     font-family: "Raleway", serif;
-    color: #160900;
+    /*color: #160900;*/
+    color: #2c251e;
 }
 
 /* The paragraph with lead class in the header of the start page */
 #header .lead {
     font-family: "Berkshire Swash", serif;
-    color: #867369;
+    /*color: #867369;*/
+    color: #6F573C;
 }
 
 /* Navbar */ 
 #navbar {
-    background-color: #3B3026;
+    /*background-color: #3B3026;*/
+    background-color: #523E33;
     text-transform: uppercase;
 }
 
@@ -65,11 +69,13 @@ p {
 }
 
 #navbar li * {
-    color: #F8FBE4;
+    /*color: #F8FBE4;*/
+    color: #e6d4bd;
 }
 
 #navbar li:hover * {
-    color: #8F6D3F; 
+    /*color: #8F6D3F;*/
+    color: #6F573C;
 }
 
 /* Styling of the header */
@@ -122,12 +128,8 @@ img {
 
 /* Text on the start page */
 #start-info p {
-    /*margin-top: 15px;
-    margin-bottom: 25px;*/
-    /*font-size: 1.2rem;*/
-    color:#3B3026; 
-    font-weight: normal;
-    /*padding-top: 20px;*/
+    /*color:#3B3026; 
+    font-weight: normal;*/
     padding-bottom: 40px;
 }
 
@@ -255,10 +257,9 @@ section {
 @media screen and (min-width: 768px) {
     /* Paragraph on the start page */ 
     #start-info p {
-        color:#3B3026; 
-        font-weight: normal;
+        /*color:#3B3026; 
+        font-weight: normal;*/
         font-size: 1.2rem;
-        padding-bottom: 40px;
     }
 
     /* About The Maine Coon - CSS */
@@ -277,15 +278,13 @@ section {
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
     #navbar {
-        background-color: #3B3026;
-        text-transform: uppercase;
         font-weight: bold;
         font-size: 1.1rem;
     }
 
     #start-info p {
-        color:#3B3026; 
-        font-weight: normal;
+        /*color:#3B3026; 
+        font-weight: normal;*/
         font-size: 1.5rem;     
     }
 
@@ -314,8 +313,6 @@ section {
 /* Media query: laptops and desktops (1440px and up) */
 @media screen and (min-width: 1440px) {
     #navbar {
-        background-color: #3B3026;
-        text-transform: uppercase;
         font-size: 1.5rem;
     }
 
@@ -325,7 +322,6 @@ section {
     }
 
     #start-info p {
-        color:#3B3026; 
         font-size: 2rem;
     }
 
