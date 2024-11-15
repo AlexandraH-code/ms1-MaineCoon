@@ -36,13 +36,15 @@ h2 {
     color: #523E33;
 }
 
-h3 {
-    color: #60533E;
+h3,
+h4 {
+    /*color: #60533E;*/
+    color: #6F573C
 }
 
-h4 {
+/*h4 {
     color: #6A512F
-}
+}*/
 
 p {
     font-family: "Raleway", serif;
@@ -146,30 +148,36 @@ section {
 
 /* Footer */
 #social-links {
-    background-color: #3B3026;
+    /*background-color: #3B3026;*/
+    background-color: #523E33;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #social-links i {
-    color: #F8FBE4;
+    /*color: #F8FBE4;*/
+    color: #E6D4BD;
     text-decoration: none;
     font-size: 1.5rem;
     margin-right: 10px;
 }
 
 #social-links i:hover {
-    color: #8F6D3F; 
+    /*color: #8F6D3F;*/ 
+    color: #6F573C;
 }
 
 #social-links a {
-    color: #F8FBE4;
+    /*color: #F8FBE4;*/
+    color: #E6D4BD;;
     text-decoration: none;
+    text-transform: uppercase;
     font-size: 1rem;
 }
 
 #social-links a:hover {
-    color: #8F6D3F; 
+    /*color: #8F6D3F;*/
+    color: #6F573C;
 }
 
 /* Before You Buy A Cat - CSS */
@@ -241,15 +249,19 @@ section {
 /* Buttons in the contact and newsletter form */
 .custom-button-outline {
     /*border: 3px solid #3B3026;*/
-    border: 3px solid #3B3026;
+    /*border: 3px solid #3B3026;*/
+    border: 3px solid #523E33;
+    background-color: #E6D4BD;
     padding: 7px 25px;
     /*color: #8F6D3F;*/
     color:#3B3026;
 }
 
 .custom-button-outline:hover {
-    background-color: #3B3026;; 
-    color: #F8FBE4;
+    /*background-color: #3B3026;*/
+    background-color: #523E33;
+    /*color: #F8FBE4;*/
+    color: #E6D4BD;
 }
 
 /* Media queries */
@@ -289,17 +301,11 @@ section {
     }
 
     #social-links i {
-        color: #F8FBE4;
-        text-decoration: none;
         font-size: 2.5rem;
-        margin-right: 10px;
     }
 
     #social-links a {
-        color: #F8FBE4;
-        text-decoration: none;
         font-size: 1.1rem;
-        text-transform: uppercase;
     }
 
     /* About The Maine Coon - CSS */
@@ -326,15 +332,10 @@ section {
     }
 
     #social-links i {
-        color: #F8FBE4;
-        text-decoration: none;
         font-size: 3rem;
-        margin-right: 10px;
     }
 
     #social-links a {
-        color: #F8FBE4;
-        text-decoration: none;
         font-size: 1.5rem;
     }
 
