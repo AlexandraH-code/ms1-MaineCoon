@@ -128,11 +128,16 @@ img {
     height: auto;
   }
 
+/* Start-info section */
 /* Text on the start page */
 #start-info p {
     /*color:#3B3026; 
     font-weight: normal;*/
     padding-bottom: 40px;
+}
+
+#start-info h2 {
+    display: none;
 }
 
 section {
