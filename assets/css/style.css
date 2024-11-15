@@ -136,7 +136,9 @@ img {
     padding-bottom: 40px;
 }
 
-#start-info h2 {
+/* Headings on the start page and on the gallery page that is invisible for the visitor but accessible for screen reader */
+#start-info h2,
+#image_gallery h2 {
     display: none;
 }
 
