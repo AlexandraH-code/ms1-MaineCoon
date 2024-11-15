@@ -98,12 +98,14 @@ p {
 #header .about_the_mc_links a,
 #header .before_cat_links a {
     text-decoration: none;
-    color:#3B3026;
+    /*color:#3B3026;*/
+    color: #523E33;
 }
 
 #header .about_the_mc_links a:hover,
 #header .before_cat_links a:hover {
-    color: #8F6D3F;
+    /*color: #8F6D3F;*/
+    color: #6F573C;
 }
 
 /* The Jumbotron 
