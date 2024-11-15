@@ -324,7 +324,7 @@ section {
 
     header img {
         max-width: 600px;
-        max-height: auto;
+        height: auto;
     }
 
     #start-info p {
