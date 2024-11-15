@@ -140,7 +140,7 @@ img {
 #start-info h2,
 #image_gallery h2,
 #contact_form h2,
-#newsletter_form {
+#newsletter_form h2 {
     display: none;
 }
 
