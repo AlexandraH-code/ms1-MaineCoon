@@ -138,7 +138,9 @@ img {
 
 /* Headings on the start page and on the gallery page that is invisible for the visitor but accessible for screen reader */
 #start-info h2,
-#image_gallery h2 {
+#image_gallery h2,
+#contact_form h2,
+#newsletter_form {
     display: none;
 }
 
