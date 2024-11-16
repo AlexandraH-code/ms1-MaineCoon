@@ -135,11 +135,12 @@ img {
 #start-info p {
     /*color:#3B3026; 
     font-weight: normal;*/
-    padding-bottom: 40px;
+    /*Tar bort padding när shorter facts ligger på startsidan */
+    /*padding-bottom: 40px;*/
 }
 
 /* Headings on the start page and on the gallery page that is invisible for the visitor but accessible for screen reader */
-#start-info h2,
+/*#start-info h2,*/
 #image_gallery h2,
 #contact_form h2,
 #newsletter_form h2 {
@@ -223,9 +224,12 @@ section {
     padding-bottom: 20px;
 }
 
-/*#shorter_facts {
-    padding-top: 20px;
-}*/
+#shorter_facts {
+    /*padding-top: 20px;*/
+    font-family: "Raleway", serif;
+    /*color: #160900;*/
+    color: #2c251e;
+}
 
 #shorter_facts li {
     list-style-type: none;
