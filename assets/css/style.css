@@ -246,16 +246,11 @@ section {
     padding-bottom: 1rem;
 }
 
-/* Contact CSS */
+/* Contact and Newsletter CSS */
 #contact_form, 
-#contact_confirmation {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
-/* Newsletter CSS */
-#newsletter_form {
+#contact_confirmation,
+#newsletter_form,
+#newsletter_confirmation {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
