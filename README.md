@@ -78,6 +78,20 @@ Maine Coon Facts is a site where you will find
 
   ### User Stories
   [(Back to top)](#index--table-of-contents)
+  * As a site visitor, I want it to be easy to navigate, to have clear headings so that it is easy to find the information I am looking for.
+
+  * As a site visitor, I want it to have a layout that allows it (the page) to be used on any screen type, so that I am not dependent on a certain kind of device.
+
+  * As a site visitor, I want it to be possible to contact the page owner so that I can get in touch with him/her if I have any questions/opinions.
+
+  * As a first-time buyer, I want to be able to easily find information about what I need to consider before buying a cat so that I can be as well prepared as possible in the event of a purchase.
+
+  * As a potential Maine Coon buyer, I want to be able to find specific information about the Maine Coon, such as temperament, appearance, specific breed traits, if Maine Coons have any diseases that you need to be aware of, etc., so that I can determine if it is a breed for me.
+
+  * As a potential Maine Coon buyer, I would like to be able to see pictures of Maine Coons (of different ages and colors) to see what varieties there are.
+
+  * As a Maine Coon owner, I want it to be possible to sign up for a newsletter, where you can find out more about Maine Coons, such as advice and tips. This is to be able to gain as much knowledge as possible about the breed and cat ownership.
+
 
 ## Design Of The Website
 [(Back to top)](#index--table-of-contents)
