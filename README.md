@@ -117,27 +117,49 @@ Maine Coon Facts is a site where you will find
   ### Wireframes
   [(Back to top)](#index--table-of-contents)
 
-  I have created the wireframes in Balsamiq. The final design doesn't match my wireframes exactly. However, they show how I intended to lay out the design of my site. I have made wireframes for mobile, tablet and desktop screen sizes.
-
-  #### Home Page Wireframes 
-  [(Back to top)](#index--table-of-contents)
-  ![Home Page Wireframes](docs/wireframes/home_page_20241118.jpg)
+  I have created the wireframes in Balsamiq. The final design doesn't match my wireframes exactly. However, they show how I intended to lay out the design of my site. I have also renamed two of the pages during the process, Good to know is now called Before You Buy A Cat and Facts is now called About The Maine Coon. I have made wireframes for mobile, tablet and desktop screen sizes.
 
   <details>
-    <summary>Home Page Wireframes</summary>
-    ![Home Page Wireframes](docs/wireframes/home_page_20241118.jpg)
+  <summary>Home Page</summary>
+
+  ![Home Page](docs/wireframes/home_page_20241118.jpg)
+  
   </details>
 
-  #### Before You Buy A Cat Page Wireframes
-  [(Back to top)](#index--table-of-contents)
-  #### About The Maine Coon Page Wireframes
-  [(Back to top)](#index--table-of-contents)
-  #### Gallery Page Wireframes
-  [(Back to top)](#index--table-of-contents)
-  #### Contact Page Wireframes
-  [(Back to top)](#index--table-of-contents)
-  #### Newsletter Page Wireframes
-  [(Back to top)](#index--table-of-contents)
+  <details>
+  <summary>Before You Buy A Cat Page</summary>
+
+  ![Before You Buy A Cat Page](docs/wireframes/before_you_buy_a_cat_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>About The Maine Coon Page</summary>
+
+  ![About The Maine Coon Page](docs/wireframes/about_the_maine_coon_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Gallery Page</summary>
+
+  ![Gallery Page](docs/wireframes/gallery_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Contact Page</summary>
+
+  ![Contact Page](docs/wireframes/contact_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Newsletter Page</summary>
+
+  ![Newsletter Page](docs/wireframes/newsletter_20241118.jpg)
+  
+  </details>
 
   ### Colors
   [(Back to top)](#index--table-of-contents)
