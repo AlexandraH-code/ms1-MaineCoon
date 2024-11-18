@@ -52,8 +52,9 @@
     * [Content](#content)
     * [Media And Images](#media-and-images)
 
-## About
+## About 
 [(Back to top)](#index--table-of-contents)
+
 Maine Coon Facts is a site where you will find
 * information about what to think about before you buy a Maine Coon.
 * information about the cat breed Maine Coon.
@@ -94,9 +95,25 @@ Maine Coon Facts is a site where you will find
 
 
 ## Design Of The Website
-[(Back to top)](#index--table-of-contents)
   ### Structure
   [(Back to top)](#index--table-of-contents)
+  
+  I have chosen to structure my website as follows.
+  
+  * Home page
+  * Before You Buy A Cat 
+    * page with information about what you should consider before getting a cat/Maine Coon).
+  * About The Maine Coon
+    * page with information on the Maine Coon cat breed.
+  * Gallery
+    * page with images of Maine Coons (both adult cats and kittens)
+  * Contact
+    * page with a form where you can send a message to the (web)site owner.
+
+  The pages above can be accessed by clicking on one of the links in the menu bar at the top of the page. On small screens (smaller than 1024 pixels) the menu is collapsed in the upper right corner). On larger screens (1024 pixels or more) there is a menu bar at the top of the page.
+
+  At the bottom of the page there is a footer. In the footer there are links to social media (Facebook and Instagram) as well as a link to a page where you can use a form to sign up for a newsletter.
+
   ### Wireframes
   [(Back to top)](#index--table-of-contents)
   #### Mobile Wireframes
