@@ -2,12 +2,10 @@
 
 [Link to the project](https://alexandrah-code.github.io/ms1-MaineCoon/)
 
-![Am I Responsive Screenshot](docs/screenshots/Maine Coon Facts.jpg) 
-
-Maine Coon Facts is a site where you will find all you need to know about the cat breed Maine Coon.
+![Am I Responsive Screenshot](docs/screenshots/maine_coon_facts.jpg)
 
 ## Index – Table of Contents
-  * [About](about)
+  * [About](#about)
   * [User Goals and User Stories](#user-goals-and-user-stories)
     * [External User Goals](#external-user-goals)
     * [Site owner goals](#site-owner-goals)
@@ -53,6 +51,9 @@ Maine Coon Facts is a site where you will find all you need to know about the ca
   * [Credits](#credits)
     * [Content](#content)
     * [Media And Images](#media-and-images)
+
+## About
+Maine Coon Facts is a site where you will find all you need to know about the cat breed Maine Coon.
 
 ## User Goals and User Stories
 [(Back to top)](#index--table-of-contents)
