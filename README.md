@@ -116,12 +116,29 @@ Maine Coon Facts is a site where you will find
 
   ### Wireframes
   [(Back to top)](#index--table-of-contents)
-  #### Mobile Wireframes
+
+  I have created the wireframes in Balsamiq. The final design doesn't match my wireframes exactly. However, they show how I intended to lay out the design of my site. I have made wireframes for mobile, tablet and desktop screen sizes.
+
+  #### Home Page Wireframes 
   [(Back to top)](#index--table-of-contents)
-  #### Tablet Wireframes
+  ![Home Page Wireframes](docs/wireframes/home_page_20241118.jpg)
+
+  <details>
+    <summary>Home Page Wireframes</summary>
+    ![Home Page Wireframes](docs/wireframes/home_page_20241118.jpg)
+  </details>
+
+  #### Before You Buy A Cat Page Wireframes
   [(Back to top)](#index--table-of-contents)
-  #### Desktop Wireframes
+  #### About The Maine Coon Page Wireframes
   [(Back to top)](#index--table-of-contents)
+  #### Gallery Page Wireframes
+  [(Back to top)](#index--table-of-contents)
+  #### Contact Page Wireframes
+  [(Back to top)](#index--table-of-contents)
+  #### Newsletter Page Wireframes
+  [(Back to top)](#index--table-of-contents)
+
   ### Colors
   [(Back to top)](#index--table-of-contents)
   ### Fonts
