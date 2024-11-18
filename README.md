@@ -53,14 +53,29 @@
     * [Media And Images](#media-and-images)
 
 ## About
-Maine Coon Facts is a site where you will find all you need to know about the cat breed Maine Coon.
+[(Back to top)](#index--table-of-contents)
+Maine Coon Facts is a site where you will find
+* information about what to think about before you buy a Maine Coon.
+* information about the cat breed Maine Coon.
+* a image galllery with images of Maine Coons, both adult cats and kittens.
+
 
 ## User Goals and User Stories
-[(Back to top)](#index--table-of-contents)
   ### External User Goals
   [(Back to top)](#index--table-of-contents)
+
+  * Find information about what you should think about if you are interested in buying a Maine Coon.
+  * Find information about the Maine Coon cat breed.
+  * Look at pictures of Maine Coons
+
   ### Site owner goals
   [(Back to top)](#index--table-of-contents)
+
+  * Spark interest in the Maine Coon cat breed.
+  * Inform about what you need to think about before buying a Maine Coon.
+  * Inform about facts related to the Maine Coon cat breed.
+  * Provide images of the Maine Coon cat breed (both adult cat and kitten images).
+
   ### User Stories
   [(Back to top)](#index--table-of-contents)
 
