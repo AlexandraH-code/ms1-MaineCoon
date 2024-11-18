@@ -2,7 +2,7 @@
 
 [Link to the project](https://alexandrah-code.github.io/ms1-MaineCoon/)
 
-![Am I Responsive Screenshot](docs/screenshots/maine_coon_facts.jpg)
+![Screenshot from Am I Responsive](docs/screenshots/maine_coon_facts.jpg)
 
 ## Index – Table of Contents
   * [About](#about)
@@ -163,8 +163,34 @@ Maine Coon Facts is a site where you will find
 
   ### Colors
   [(Back to top)](#index--table-of-contents)
+
+  I wanted to use natural colors. To get an idea of ​​what colors to use, I uploaded a picture of my Maine Coon Sunbeam to [Shutterstock's Color Palette Generator](https://www.shutterstock.com/sv/colors/color-palette-generator). In the image below, you can see the color palette that was generated after my image.
+
+  ![Image of a color palette generated from an image of my Maine Coon Sunbeam](assets/images/color_palette.jpg)
+
+  I then used [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) to see which colors have the best contrast with the background color (#E6D4BD).
+
+  The result was the following:
+  * #6F573C - Contrast Ratio 4.67:1
+    * Passed on larger text (can be used on headings)
+  * #523E33 - Contrast Ratio 6.92:1
+    * Passed on larger text (can be used on headings)
+  * #9A9694 - Contrast Ratio 2.02:1
+    * Did not pass on any text
+  * #2C251E - Contrast Ratio 10.44:1
+    * Passed on all text
+
+  The colors I chose to use from the color palette were these:
+  * Greyish black - #2C251E (other text than headings)
+  * Beige - #E6D4BD (background)
+  * Dark brown - #523E33 (on headings)
+  * Light brown - #6F573C (on headings)
+
   ### Fonts
   [(Back to top)](#index--table-of-contents)
+
+  To figure out which fonts to use, I looked around a bit on the internet for fonts. I then found [Easil's “The Ultimate Free Font Pairing List”](https://about.easil.com/free-font-pairing-guide-templates/). Here I looked through the different options that were available. I came to the conclusion that I wanted a slightly "funnier" font that stands out on the headings and an easy-to-read font on other text. The option that stuck with me was the Berkshire Swash paired with Raleway or Oswald. on headings and Raleway or Oswald on other text. The final choice was to use Berkshire Swash on all the headings and Raleway on all the other text.
+
   ### Logo, Icons And Images
   [(Back to top)](#index--table-of-contents)
 
