@@ -8,7 +8,7 @@
   * [About](#about)
   * [User Goals and User Stories](#user-goals-and-user-stories)
     * [External User Goals](#external-user-goals)
-    * [Site owner goals](#site-owner-goals)
+    * [Site Owner Goals](#site-owner-goals)
     * [User Stories](#user-stories)
   * [Design Of The Website](#design-of-the-website)
     * [Structure](#structure)
@@ -18,7 +18,10 @@
       * [Desktop Wireframes](#desktop-wireframes)
     * [Colors](#colors)
     * [Fonts](#fonts)
-    * [Logo, icons and images](#logo-icons-and-images)
+    * [Logo, Icons, Images and Text](#logo-icons-images-and-text)
+      * [Logo](#logo)
+      * [Icons](#icons)
+      * [Images](#images)
   * [Features](#features)
     * [Existing Features](#existing-features)
       * [Header](#header)
@@ -189,10 +192,40 @@ Maine Coon Facts is a site where you will find
   ### Fonts
   [(Back to top)](#index--table-of-contents)
 
-  To figure out which fonts to use, I looked around a bit on the internet for fonts. I then found [Easil's “The Ultimate Free Font Pairing List”](https://about.easil.com/free-font-pairing-guide-templates/). Here I looked through the different options that were available. I came to the conclusion that I wanted a slightly "funnier" font that stands out on the headings and an easy-to-read font on other text. The option that stuck with me was the Berkshire Swash paired with Raleway or Oswald. on headings and Raleway or Oswald on other text. The final choice was to use Berkshire Swash on all the headings and Raleway on all the other text.
+  To figure out which fonts to use, I looked around a bit on the internet for fonts. I then found [Easil's “The Ultimate Free Font Pairing List”](https://about.easil.com/free-font-pairing-guide-templates/). Here I looked through the different options that were available. I came to the conclusion that I wanted a slightly "funnier" font that stands out on the headings and an easy-to-read font on other text. The option that stuck with me was the Berkshire Swash paired with Raleway or Oswald. on headings and Raleway or Oswald on other text. The final choice was to use Berkshire Swash on all the headings and Raleway on all the other text The fonts can be found at [Google Fonts](https://fonts.google.com/).
 
-  ### Logo, Icons And Images
+  [Berkshire Swash](https://fonts.google.com/specimen/Berkshire+Swash)
+
+  [Raleway](https://fonts.google.com/specimen/Raleway)
+
+  ### Logo, Icons, Images and Text
   [(Back to top)](#index--table-of-contents)
+  #### Logo
+
+  I have chosen to have a logo in the menu bar. The logo is created using [Favicon](https://favicon.io/favicon-converter/) (where I uploaded an image of my Maine Coon Sunbeam).
+
+  #### Icons
+
+  I have chosen to have icons in two places on the website:
+  * as list item marker (a paw) in the short facts section of the home page
+  * in the footer, where there are icons for Facebook and Instagram.
+
+  The icons are from [Font Awesome](https://fontawesome.com/).  
+  * [Paw](https://fontawesome.com/search?q=paw&o=r&m=free)
+  * [Facebook](https://fontawesome.com/search?q=facebook&o=r&m=free) 
+  * [Instagram](https://fontawesome.com/search?q=instagram&o=r&m=free)
+
+  #### Images
+
+  Most images are downloaded from [Pixabay](https://pixabay.com/). The exceptions are the image on the home page which is my own (an image of my Maine Coon Sunbeam) and the image on the About The Maine Coon page which is from [Free Images](https://www.freeimages.com/). A compilation of images and owners/photographers can be found under Credits.
+
+  The images have been modified to fit the website (they have been compressed to take up less space and have been resized to fit it).
+
+  #### Text
+
+  I have found the information for the fact-rich pages on a couple of Swedish websites about the Maine Coon. I have translated this information into English (using Google Translate to make it more accurate).
+
+  The text on the Before You Buy A Cat page comes from [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/) and the text on About The Maine Coon page comes from [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
 
 ## Features
 [(Back to top)](#index--table-of-contents)
