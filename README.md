@@ -309,8 +309,45 @@ Maine Coon Facts is a site where you will find
   
   ![Image of Before You Buy A Cat Page header - large screens](docs/screenshots/before_cat_page/before_cat_header_1024px+.jpg)
 
+  Main consists of two different sections: before_cat_decision and before_cat_buying. 
+  
+  before_cat_decision consists of a paragraph (with lead class), an h2 heading and an (unordered) bulleted list of things you need to think about before making a decision to get a Maine Coon.
+
+  ![Image of Before You Make A Decision section](docs/screenshots/before_cat_page/before_you_make_a_decision_1.jpg)
+  ![Image of Before You Make A Decision section](docs/screenshots/before_cat_page/before_you_make_a_decision_2.jpg)
+
+  before_cat_buying consists of a combination of headings (h2 and h3), paragraphs and lists (both unordered and ordered). The section is about what you need to think about after you have decided to buy a Maine Coon, but before you make the actual purchase.
+
+  ![Image of Before You Buy A Cat section](docs/screenshots/before_cat_page/things_to_think_about_before_buying_1.jpg)
+  ![Image of Before You Buy A Cat section](docs/screenshots/before_cat_page/things_to_think_about_before_buying_2.jpg)
+
+  The section is longer but I have chosen to include only two pictures of it here.
+
   #### About The Maine Coon Page
   [(Back to top)](#index--table-of-contents)
+
+  About The Maine Coon page consists of the following parts (besides navbar and footer): header and main.
+
+  Header consists of two columns. In the column on the left is a large heading (h1) and a menu with links that go to the different sections of the page (the menu is an unordered list). In the column on the right is a picture of three Maine Coon kittens that I downloaded from Free Images (owner/photographer johnnyberg, see Credits)
+
+  On screens smaller than 1024 px, the image goes under the header and menu.
+
+  ![Image of About The Maine Coon page header - small screens](docs/screenshots/about_the_mc/about_the_mc_header_small_screens.jpg)
+
+  On screens that are 1024 px or larger, the header splits into two columns.
+
+  ![Image of About The Maine Coon page header - screens 1024px or larger](docs/screenshots/about_the_mc/about_the_mc_header_1024px+.jpg)
+
+  Main consists of the following sections: Origin, Appearance, Personality, Health, Nutrition And Feeding, Fur Care and Child Friendliness. Each section consists of an h2 heading and a paragraph (with the facts to which the heading applies).
+
+  ![Image of About The Maine Coon page - Origin section - screens smaller than 1024 px](docs/screenshots/about_the_mc/about_the_mc_main_small_screens.jpg)
+
+  The content is placed in the center of the page on screens larger than 1024px.
+
+  ![Image of About The Maine Coon page - Origin section - screens 1024px or larger](docs/screenshots/about_the_mc/about_the_mc_main_1024px+.jpg)
+
+  After Origin, the other sections follow. But I have chosen to only include images of the first section here.
+
   #### Gallery Page
   [(Back to top)](#index--table-of-contents)
   #### Contact Page
