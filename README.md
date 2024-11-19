@@ -297,8 +297,17 @@ Maine Coon Facts is a site where you will find
   #### Before You Buy A Cat Page
   [(Back to top)](#index--table-of-contents)
 
+  Before You Buy A Cat page consists of the following parts (besides navbar and footer): header and main.
 
+  Header consists of two columns. In the left column is a large heading (h1) and a menu with two links that go to the two sections of the page (the menu is an unordered list). In the column on the right there is an image of a Maine Coon downloaded from Pixabay (owner/photographer Claudia Wollesen, see Credits)
 
+  On screens smaller than 1024 px, the image is placed below the heading and menu.
+
+  ![Image of Before You Buy A Cat Page header - small screens](docs/screenshots/before_cat_page/before_cat_header_smaller_than_1024px.jpg)
+
+  On screens larger than 1024 px, the header splits into two columns.
+  
+  ![Image of Before You Buy A Cat Page header - large screens](docs/screenshots/before_cat_page/before_cat_header_1024px+.jpg)
 
   #### About The Maine Coon Page
   [(Back to top)](#index--table-of-contents)
