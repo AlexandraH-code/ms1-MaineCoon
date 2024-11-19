@@ -350,6 +350,29 @@ Maine Coon Facts is a site where you will find
 
   #### Gallery Page
   [(Back to top)](#index--table-of-contents)
+
+  Gallery consists of the following parts (besides navbar and footer): header and main.
+
+  Header consists of an h1 heading. On this page I have chosen not to have an image in the header as it only contains images (it feels unnecessary to have one in the header then).
+
+  ![Image of Gallery page header](docs/screenshots/gallery_page/gallery_header.jpg)
+
+  Main contains one section, image_gallery. image_gallery consists of an h2 header and a row of images. The images are displayed in one, two or three columns depending on the screen size.
+
+  Screens smaller than 768px:
+
+  ![Image of Gallery page - images - small screens](docs/screenshots/gallery_page/main_smaller_than_768px.jpg)
+
+  Screens 768px or larger, but smaller than 1024px:
+
+  ![Image of Gallery page - images - screens 768px to 1024px ](docs/screenshots/gallery_page/main_768px_to_1024px.jpg)
+
+  Screens 1024px or larger:
+
+  ![Image of Gallery page - images - 1024px or larger ](docs/screenshots/gallery_page/main_1024px+.jpg)
+
+  The images above show a part of the Gallery page.
+
   #### Contact Page
   [(Back to top)](#index--table-of-contents)
   #### Newsletter Page
