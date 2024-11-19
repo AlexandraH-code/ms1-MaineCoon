@@ -332,19 +332,19 @@ Maine Coon Facts is a site where you will find
 
   On screens smaller than 1024 px, the image goes under the header and menu.
 
-  ![Image of About The Maine Coon page header - small screens](docs/screenshots/about_the_mc/about_the_mc_header_small_screens.jpg)
+  ![Image of About The Maine Coon page header - small screens](docs/screenshots/about_the_mc_page/about_the_mc_header_small_screens.jpg)
 
   On screens that are 1024 px or larger, the header splits into two columns.
 
-  ![Image of About The Maine Coon page header - screens 1024px or larger](docs/screenshots/about_the_mc/about_the_mc_header_1024px+.jpg)
+  ![Image of About The Maine Coon page header - screens 1024px or larger](docs/screenshots/about_the_mc_page/about_the_mc_header_1024px+.jpg)
 
   Main consists of the following sections: Origin, Appearance, Personality, Health, Nutrition And Feeding, Fur Care and Child Friendliness. Each section consists of an h2 heading and a paragraph (with the facts to which the heading applies).
 
-  ![Image of About The Maine Coon page - Origin section - screens smaller than 1024 px](docs/screenshots/about_the_mc/about_the_mc_main_small_screens.jpg)
+  ![Image of About The Maine Coon page - Origin section - screens smaller than 1024 px](docs/screenshots/about_the_mc_page/about_the_mc_main_small_screens.jpg)
 
   The content is placed in the center of the page on screens larger than 1024px.
 
-  ![Image of About The Maine Coon page - Origin section - screens 1024px or larger](docs/screenshots/about_the_mc/about_the_mc_main_1024px+.jpg)
+  ![Image of About The Maine Coon page - Origin section - screens 1024px or larger](docs/screenshots/about_the_mc_page/about_the_mc_main_1024px+.jpg)
 
   After Origin, the other sections follow. But I have chosen to only include images of the first section here.
 
@@ -365,20 +365,72 @@ Maine Coon Facts is a site where you will find
 
   Screens 768px or larger, but smaller than 1024px:
 
-  ![Image of Gallery page - images - screens 768px to 1024px ](docs/screenshots/gallery_page/main_768px_to_1024px.jpg)
+  ![Image of Gallery page - images - screens 768px to 1024px](docs/screenshots/gallery_page/main_768px_to_1024px.jpg)
 
   Screens 1024px or larger:
 
-  ![Image of Gallery page - images - 1024px or larger ](docs/screenshots/gallery_page/main_1024px+.jpg)
+  ![Image of Gallery page - images - 1024px or larger](docs/screenshots/gallery_page/main_1024px+.jpg)
 
   The images above show a part of the Gallery page.
 
   #### Contact Page
   [(Back to top)](#index--table-of-contents)
+
+  Gallery consists of the following parts (besides navbar and footer): header and main.
+
+  Header consists of an h1 heading. I have chosen not to have any images on this page (to keep it as "clean" as possible).
+
+  ![Image of Contact page - header](docs/screenshots/contact_page/contact_header.jpg)
+
+  Consists of one section, contact_form. contact_form consists of one paragraphs and a form. The form consists of three text fields (Full Name, Email Address and Message) and a Send Message button. The appearance of the form changes with screen size.
+
+  Screens smaller than 768px:
+
+  ![Image of Contact page - form - screens smaller than 768px](docs/screenshots/contact_page/form_smaller_than_768px.jpg)
+
+  Screens 768px or larger:
+
+  ![Image of Contact page - form - screens 768px or larger](docs/screenshots/contact_page/form_768px+.jpg)
+
+  For the appearance of the button I have used Bootstrap 5.3 ([btn custom-button-outline class](https://getbootstrap.com/docs/5.3/components/buttons/#outline-buttons)) combined with my own CSS.
+
+  There is a hover effect on the button (on larger screens). When you move the mouse pointer over it, the background and text color changes.
+
+  ![Image of Contact page - form - button hover](docs/screenshots/contact_page/button_hover.jpg)
+
   #### Newsletter Page
   [(Back to top)](#index--table-of-contents)
+
+  Gallery consists of the following parts (besides navbar and footer): header and main.
+
+  Header consists of an h1 heading. I have chosen not to have any images on this page (to keep it as "clean" as possible)
+
+  ![Image of Newsletter page - header](docs/screenshots/newsletter_page/newsletter_header.jpg)
+
+  Main consists of one section, newsletter_form. newsletter_form consists of two paragraphs and a form. The form consists of two text fields (Full Name and Email Address) and a Sign Up button. The appearance of the form changes with screen size.
+
+  Screens smaller than 768px:
+
+  ![Image of Newsletter page - form - screens smaller than 768px](docs/screenshots/newsletter_page/form_768px_or_smaller.jpg)
+
+  Screens 768px or larger:
+
+  ![Image of Newsletter page - form - screens 768px or larger](docs/screenshots/newsletter_page/form_768px+.jpg)
+
+  For the appearance of the button I have used Bootstrap 5.3 ([btn custom-button-outline](https://getbootstrap.com/docs/5.3/components/buttons/#outline-buttons)) combined with my own CSS.
+
+  There is a hover effect on the button (on larger screens). When you move the mouse pointer over it, the background and text color changes.
+
+  ![Image of Newsletter page - form - button hover](docs/screenshots/newsletter_page/button_hover.jpg)
+
   ### Features Left To Implement
   [(Back to top)](#index--table-of-contents)
+
+  There are two features that I think could be added to the site in the future.
+
+  * List of breeders (divided, for example, by area, city, etc.)
+  * Ability to search the website
+
 
 ## Technologies Used
 [(Back to top)](#index--table-of-contents)
