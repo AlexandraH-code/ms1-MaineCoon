@@ -296,6 +296,10 @@ Maine Coon Facts is a site where you will find
 
   #### Before You Buy A Cat Page
   [(Back to top)](#index--table-of-contents)
+
+
+
+
   #### About The Maine Coon Page
   [(Back to top)](#index--table-of-contents)
   #### Gallery Page
