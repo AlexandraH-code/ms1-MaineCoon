@@ -228,15 +228,72 @@ Maine Coon Facts is a site where you will find
   The text on the Before You Buy A Cat page comes from [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/) and the text on About The Maine Coon page comes from [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
 
 ## Features
-[(Back to top)](#index--table-of-contents)
   ### Existing Features
-  [(Back to top)](#index--table-of-contents)
   #### Header
   [(Back to top)](#index--table-of-contents)
+
+  In the header there is a navbar consisting of a logo and links to the website's various pages (HOME, BEFORE YOU BUY A CAT, ABOUT THE MAINE COON, GALLERY and CONTACT). 
+
+  The nav bar is from [Bootstrap](https://getbootstrap.com/).
+
+  The navbar that I have based mine on is [this one](https://getbootstrap.com/docs/5.3/components/navbar/#nav). I have then modified it the way I want it and with the colors I have chosen to use.
+
+  The navbar on screens that are 1024px or larger.
+
+  ![Image of the navbar on screens that are 1024px or larger](docs/screenshots/navbar_large_screens.jpg)
+
+  The navbar has a hover effect on screens larger than 1024px. When you move the mouse pointer over each page in the navbar, the color of the text changes.
+
+  ![Image of the navbar on screens that are 1024px or larger](docs/screenshots/navbar_hover.jpg)
+
+  The navbar on screens that are smaller than 1024 pixels, the links become a toggle menu on the right of the navbar.
+
+  ![Image of the navbar on screens that are smaller than 1024 px](docs/screenshots/navbar_small_screens.jpg)
+
   #### Footer
   [(Back to top)](#index--table-of-contents)
+
+  The footer consists of two icons (one for Facebook and one for Instagram) and a SIGN UP FOR OUR NEWSLETTER link (goes to a page where you, via a form, can sign up for the page's newsletter).
+
+  ![Image of the footer](docs/screenshots/footer.jpg)
+
+  On large screens (1024 px or more), the icons and link have a hover effect (their color changes). I have chosen to use the same color as in the nav bar.
+
+  ![Image of the footer](docs/screenshots/footer_hover.jpg)
+
   #### Home Page
   [(Back to top)](#index--table-of-contents)
+
+  The home page consists of the following parts (besides the navbar and footer), header and main.
+
+  In the header, there is a large heading (h1) and an image of a Maine Coon (image of my own Maine Coon Sunbeam).
+
+  ![Image of the Home Page header](docs/screenshots/home_page/home_header.jpg)
+
+  Main consists of two different sections: start_info and shorter_facts.
+
+  In start_info there is an h2 heading (which welcomes you to the page) and a paragraph describing what the website contains.
+
+  ![Image of start_info section](docs/screenshots/home_page/start_info.jpg)
+
+  Below the start_info section comes the shorter_facts section. It consists of an h3 heading and a list of shorter facts about the Maine Coon. At the bottom of the section is a button that directs the visitor to the About The Maine Coon page. Here is my thought that the facts about the Maine Coon are probably the biggest reason why you enter the site. And that it is also logical that you can get to more facts about the Maine Coon in a section that gives shorter facts about it.
+
+  The list of shorter facts changes depending on the screen size. On small screens (up to 768 px) it is a single column. 
+
+  ![Image of shorter_facts section small screens](docs/screenshots/home_page/shorter_facts_small_screen.jpg)
+  
+  On screens larger than 768px (but smaller than 1024px), the list splits into two columns and a column in the middle below the top two.
+
+  ![Image of shorter_facts section screens from 768 px to 1024 px](docs/screenshots/home_page/shorter_facts_768px.jpg)
+
+  On 1024 px screens or larger, the list splits into three columns.
+
+  ![Image of shorter_facts section screens 1024 px or larger](docs/screenshots/home_page/shorter_facts_1024px.jpg)
+
+  The button below the shorter facts section has a hover effect. When you move the mouse pointer over it, the background and text color changes.
+
+  ![Image of button showing hover effect](docs/screenshots/home_page/home_button_hover.jpg)
+
   #### Before You Buy A Cat Page
   [(Back to top)](#index--table-of-contents)
   #### About The Maine Coon Page

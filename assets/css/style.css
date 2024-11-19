@@ -116,7 +116,7 @@ img {
 
 /* Start-info section */
 /* Text on the start page */
-#start-info p {
+#start_info p {
     /*color:#3B3026; 
     font-weight: normal;*/
     /*Tar bort padding när shorter facts ligger på startsidan */
@@ -136,14 +136,14 @@ section {
 }
 
 /* Footer */
-#social-links {
+#social_links {
     /*background-color: #3B3026;*/
     background-color: #523E33;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-#social-links i {
+#social_links i {
     /*color: #F8FBE4;*/
     color: #E6D4BD;
     text-decoration: none;
@@ -151,12 +151,12 @@ section {
     margin-right: 10px;
 }
 
-#social-links i:hover {
+#social_links i:hover {
     /*color: #8F6D3F;*/ 
     color: #6F573C;
 }
 
-#social-links a {
+#social_links a {
     /*color: #F8FBE4;*/
     color: #E6D4BD;;
     text-decoration: none;
@@ -164,7 +164,7 @@ section {
     font-size: 1rem;
 }
 
-#social-links a:hover {
+#social_links a:hover {
     /*color: #8F6D3F;*/
     color: #6F573C;
 }
@@ -265,7 +265,7 @@ section {
     }
 
     /* Paragraph on the start page */ 
-    #start-info p {
+    #start_info p {
         /*color:#3B3026; 
         font-weight: normal;*/
         font-size: 1.1rem;
@@ -301,7 +301,7 @@ section {
         height: auto;
     }
 
-    #start-info p {
+    #start_info p {
         /*color:#3B3026; 
         font-weight: normal;*/
         font-size: 1.2rem;     
@@ -311,11 +311,11 @@ section {
         font-size: 1.2rem;
     }
 
-    #social-links i {
+    #social_links i {
         font-size: 2.5rem;
     }
 
-    #social-links a {
+    #social_links a {
         font-size: 1.2rem;
     }
 
@@ -338,7 +338,7 @@ section {
         height: auto;
     }
 
-    #start-info p {
+    #start_info p {
         font-size: 1.5rem;
     }
 
@@ -346,11 +346,11 @@ section {
         font-size: 1.5rem;
     }
 
-    #social-links i {
+    #social_links i {
         font-size: 3rem;
     }
 
-    #social-links a {
+    #social_links a {
         font-size: 1.5rem;
     }
 
