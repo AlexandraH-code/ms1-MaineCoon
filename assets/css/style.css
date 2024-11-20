@@ -1,11 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*html, body {
-    margin: 0;
-    padding: 0;
-}*/
-
 * {
     margin: 0;
     padding: 0;
@@ -14,11 +9,9 @@
 
 html {
     overflow-y: scroll;
-    /*scroll-behavior: smooth;*/
 }
 
 body {
-    /*background-color: #F8FBE4;*/
     background-color:#e6d4bd;
     padding-top: 56px;
 }
@@ -32,36 +25,27 @@ h4 {
 
 h1,
 h2 {
-    /*color: #3B3026;*/
     color: #523E33;
 }
 
 h3,
 h4 {
-    /*color: #60533E;*/
     color: #6F573C
 }
 
-/*h4 {
-    color: #6A512F
-}*/
-
 p {
     font-family: "Raleway", serif;
-    /*color: #160900;*/
     color: #2c251e;
 }
 
 /* The paragraph with lead class in the header of the start page */
 #header .lead {
     font-family: "Berkshire Swash", serif;
-    /*color: #867369;*/
     color: #6F573C;
 }
 
 /* Navbar */ 
 #navbar {
-    /*background-color: #3B3026;*/
     background-color: #523E33;
     text-transform: uppercase;
 }
@@ -72,26 +56,24 @@ p {
 }
 
 #navbar li * {
-    /*color: #F8FBE4;*/
     color: #e6d4bd;
 }
 
 #navbar li:hover * {
-    /*color: #8F6D3F;*/
     color: #6F573C;
 }
 
 /* Styling of the header */
 #header {
-    /*max-width: 100%;
-    /*margin-left: 10px;
-    margin-right: 10px;*/
     padding-top: 30px;
 }
 
+/* Image on the start page */ 
 #header .index_image {
-    width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    /*max-width: 100%;
+    height: auto;*/
 }
 
 /* Styling of lists and links in the header */
@@ -104,13 +86,11 @@ p {
 #header .about_the_mc_links a,
 #header .before_cat_links a {
     text-decoration: none;
-    /*color:#3B3026;*/
     color: #523E33;
 }
 
 #header .about_the_mc_links a:hover,
 #header .before_cat_links a:hover {
-    /*color: #8F6D3F;*/
     color: #6F573C;
 }
 
@@ -130,7 +110,6 @@ img {
 }
 
 /* Headings on the start page and on the gallery page that is invisible for the visitor but accessible for screen reader */
-/*#start-info h2,*/
 #image_gallery h2,
 #contact_form h2,
 #newsletter_form h2 {
@@ -143,14 +122,12 @@ section {
 
 /* Footer */
 #social_links {
-    /*background-color: #3B3026;*/
     background-color: #523E33;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 #social_links i {
-    /*color: #F8FBE4;*/
     color: #E6D4BD;
     text-decoration: none;
     font-size: 1.5rem;
@@ -158,12 +135,10 @@ section {
 }
 
 #social_links i:hover {
-    /*color: #8F6D3F;*/ 
     color: #6F573C;
 }
 
 #social_links a {
-    /*color: #F8FBE4;*/
     color: #E6D4BD;;
     text-decoration: none;
     text-transform: uppercase;
@@ -171,7 +146,6 @@ section {
 }
 
 #social_links a:hover {
-    /*color: #8F6D3F;*/
     color: #6F573C;
 }
 
@@ -208,9 +182,7 @@ section {
 }
 
 #shorter_facts {
-    /*padding-top: 20px;*/
     font-family: "Raleway", serif;
-    /*color: #160900;*/
     color: #2c251e;
 }
 
@@ -241,19 +213,14 @@ section {
 
 /* Buttons in the contact and newsletter form */
 .custom-button-outline {
-    /*border: 3px solid #3B3026;*/
-    /*border: 3px solid #3B3026;*/
     border: 3px solid #523E33;
     background-color: #E6D4BD;
     padding: 7px 25px;
-    /*color: #8F6D3F;*/
     color:#3B3026;
 }
 
 .custom-button-outline:hover {
-    /*background-color: #3B3026;*/
     background-color: #523E33;
-    /*color: #F8FBE4;*/
     color: #E6D4BD;
 }
 
@@ -265,15 +232,13 @@ section {
     }
 
     /* Image on start page */
-    header img {
+    #header .index_image {
         max-width: 75%;
         height: auto;
     }
 
     /* Paragraph on the start page */ 
     #start_info p {
-        /*color:#3B3026; 
-        font-weight: normal;*/
         font-size: 1.1rem;
     }
 
@@ -302,14 +267,12 @@ section {
     }
 
     /* Image on start page */
-    header img {
+    #header .index_image {
         max-width: 50%;
         height: auto;
     }
 
     #start_info p {
-        /*color:#3B3026; 
-        font-weight: normal;*/
         font-size: 1.2rem;     
     }
 
@@ -339,8 +302,9 @@ section {
     }
 
     /* Image on start page */
-    header img {
-        max-width: 600px;
+    #header .index_image {
+        /*max-width: 600px;*/
+        max-width: 50%;
         height: auto;
     }
 
