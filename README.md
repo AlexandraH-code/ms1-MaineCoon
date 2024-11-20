@@ -21,7 +21,7 @@
     * [Logo, Icons, Images and Text](#logo-icons-images-and-text)
       * [Logo](#logo)
       * [Icons](#icons)
-      * [Images](#images)
+      * [Images and Text](#images-and-text)
   * [Features](#features)
     * [Existing Features](#existing-features)
       * [Header](#header)
@@ -39,6 +39,13 @@
   * [Testing](#testing)
     * [User Story Testing](#user-story-testing)
     * [Manual Testing](#manual-testing)
+      * [Test links - navbar](#test-links---navbar)
+      * [Test icons/link - footer](#test-iconslink---footer)
+      * [Test link/button on Home Page](#test-linkbutton---home-page)
+      * [Test links Before You Buy A Cat](#test-links---before-you-buy-a-cat-page)
+      * [Test links About The Maine Coon](#test-links---about-the-maine-coon-page)
+      * [Test form - Contact Page](#test-form---contact-page)
+      * [Test form - Newsletter Page](#test-form---newsletter-page)
     * [Bugs](#bugs)
     * [Validation](#validation)
       * [HTML](#html)
@@ -51,8 +58,8 @@
   * [Deployment](#deployment)
 
   * [Credits](#credits)
-    * [Content](#content)
-    * [Media And Images](#media-and-images)
+    * [Facts](#facts)
+    * [Images](#images)
 
 ## About 
 [(Back to top)](#index--table-of-contents)
@@ -163,6 +170,7 @@ Maine Coon Facts is a site where you will find
   
   </details>
 
+
   ### Colors
 
   I wanted to use natural colors. To get an idea of ​​what colors to use, I uploaded a picture of my Maine Coon Sunbeam to [Shutterstock's Color Palette Generator](https://www.shutterstock.com/sv/colors/color-palette-generator). In the image below, you can see the color palette that was generated after my image.
@@ -187,6 +195,7 @@ Maine Coon Facts is a site where you will find
   * Dark brown - #523E33 (on headings)
   * Light brown - #6F573C (on headings)
 
+
   ### Fonts
 
   To figure out which fonts to use, I looked around a bit on the internet for fonts. I then found [Easil's “The Ultimate Free Font Pairing List”](https://about.easil.com/free-font-pairing-guide-templates/). Here I looked through the different options that were available. I came to the conclusion that I wanted a slightly "funnier" font that stands out on the headings and an easy-to-read font on other text. The option that stuck with me was the Berkshire Swash paired with Raleway or Oswald. on headings and Raleway or Oswald on other text. The final choice was to use Berkshire Swash on all the headings and Raleway on all the other text The fonts can be found at [Google Fonts](https://fonts.google.com/).
@@ -194,6 +203,7 @@ Maine Coon Facts is a site where you will find
   [Berkshire Swash](https://fonts.google.com/specimen/Berkshire+Swash)
 
   [Raleway](https://fonts.google.com/specimen/Raleway)
+
 
   ### Logo, Icons, Images and Text
 
@@ -212,17 +222,14 @@ Maine Coon Facts is a site where you will find
   * [Facebook](https://fontawesome.com/search?q=facebook&o=r&m=free) 
   * [Instagram](https://fontawesome.com/search?q=instagram&o=r&m=free)
 
-  #### Images
+  #### Images and Text
 
   Most images are downloaded from [Pixabay](https://pixabay.com/). The exceptions are the image on the home page which is my own (an image of my Maine Coon Sunbeam) and the image on the About The Maine Coon page which is from [Free Images](https://www.freeimages.com/). A compilation of images and owners/photographers can be found under Credits.
 
   The images have been modified to fit the website (they have been compressed to take up less space and have been resized to fit it).
 
-  #### Text
+  I have found the information for the fact-rich pages on a couple of Swedish websites about the Maine Coon (See Credits). I have translated this information into English (using Google Translate to make it more accurate).
 
-  I have found the information for the fact-rich pages on a couple of Swedish websites about the Maine Coon. I have translated this information into English (using Google Translate to make it more accurate).
-
-  The text on the Before You Buy A Cat page comes from [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/) and the text on About The Maine Coon page comes from [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
 
 ## Features
 [(Back to top)](#index--table-of-contents)
@@ -251,6 +258,7 @@ Maine Coon Facts is a site where you will find
 
   In order to solve so that the menu toggles on small screens, I am using a JavaScript here. (The JavaScript was used in the Boardwalk Games Walkthrough)
 
+
   #### Footer
 
   The footer consists of two icons (one for Facebook and one for Instagram) and a SIGN UP FOR OUR NEWSLETTER link (goes to a page where you, via a form, can sign up for the page's newsletter).
@@ -260,6 +268,7 @@ Maine Coon Facts is a site where you will find
   On large screens (1024 px or more), the icons and link have a hover effect (their color changes). I have chosen to use the same color as in the nav bar.
 
   ![Image of the footer](docs/screenshots/footer_hover.jpg)
+
 
   #### Home Page
 
@@ -293,6 +302,7 @@ Maine Coon Facts is a site where you will find
 
   ![Image of button showing hover effect](docs/screenshots/home_page/home_button_hover.jpg)
 
+
   #### Before You Buy A Cat Page
 
   Before You Buy A Cat page consists of the following parts (besides navbar and footer): header and main.
@@ -321,6 +331,7 @@ Maine Coon Facts is a site where you will find
 
   The section is longer but I have chosen to include only two pictures of it here.
 
+
   #### About The Maine Coon Page
 
   About The Maine Coon page consists of the following parts (besides navbar and footer): header and main.
@@ -344,6 +355,7 @@ Maine Coon Facts is a site where you will find
   ![Image of About The Maine Coon page - Origin section - screens 1024px or larger](docs/screenshots/about_the_mc_page/about_the_mc_main_1024px+.jpg)
 
   After Origin, the other sections follow. But I have chosen to only include images of the first section here.
+
 
   #### Gallery Page
 
@@ -369,6 +381,7 @@ Maine Coon Facts is a site where you will find
 
   The images above show a part of the Gallery page.
 
+
   #### Contact Page
 
   Gallery consists of the following parts (besides navbar and footer): header and main.
@@ -392,6 +405,7 @@ Maine Coon Facts is a site where you will find
   There is a hover effect on the button (on larger screens). When you move the mouse pointer over it, the background and text color changes.
 
   ![Image of Contact page - form - button hover](docs/screenshots/contact_page/button_hover.jpg)
+
 
   #### Newsletter Page
 
@@ -417,6 +431,7 @@ Maine Coon Facts is a site where you will find
 
   ![Image of Newsletter page - form - button hover](docs/screenshots/newsletter_page/button_hover.jpg)
 
+
   ### Features Left To Implement
 
   There are two features that I think could be added to the site in the future.
@@ -428,11 +443,13 @@ Maine Coon Facts is a site where you will find
 ## Technologies Used
 [(Back to top)](#index--table-of-contents)
 
+
 ### Languages
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
 
 ### Programs And Other Resources
 
@@ -454,8 +471,10 @@ Maine Coon Facts is a site where you will find
   * [Instagram icon](https://fontawesome.com/search?q=instagram&o=r&m=free)
   * [Paw icon](https://fontawesome.com/search?q=paw&o=r&m=free) 
 
+
 ## Testing
 [(Back to top)](#index--table-of-contents)
+
 
 ### User Story Testing
 
@@ -469,14 +488,96 @@ Maine Coon Facts is a site where you will find
 | Contact page and Footer | As a site visitor, I want it to be possible to contact the page owner so that I can get in touch with him/her if I have any questions/opinions. | The site offers a contact form where you can send a message to the site owner. There is also links to social media in the footer (a potential way to contact the site owner). | &check; |
 | Newsletter page | As a Maine Coon owner, I want it to be possible to sign up for a newsletter, where you can find out more about Maine Coons, such as advice and tips. This is to be able to gain as much knowledge as possible about the breed and cat ownership. | In the footer you can click on a Sign up for our newsletter link. The link takes you to a form where you can sign up for the newsletter. | &check; |
 
+
 ### Manual Testing
 
+
+#### Test links - navbar
+
+| Link | Action |
+|------|--------|
+| Logo | When you click on the logo you will be taken to index.html (the Home Page) |
+| BEFORE YOU BUY A CAT | When you click on BEFORE YOU BUY A CAT you will be taken to before_cat.html (Before You Buy A Cat) |
+| ABOUT THE MAINE COON | When you click on ABOUT THE MAINE COON you will be taken to about_the_mc.html (ABbout The Maine Coon) |
+| GALLERY | When you click on GALLERY you will be taken to gallery.html (Gallery) |
+| CONTACT | When you click on CONTACT you will be taken to contact.html (Contact Us) |
+
+The links in the navbar work as they should.
+
+
+#### Test icons/link - footer
+
+| Link | Action |
+|------|--------|
+| Icon Facebook | When you click on the icon, Facebook opens in a new tab or in a new window. |
+| Icon Instagram | When you click on the icon, Instagram opens in a new tab or in a new window. |
+| SIGN UP FOR OUR NEWSLETTER link | When you click on the link, you will be taken to the Newsletter page where, via a form, you can sign up for the newsletter. |
+
+The links in the footer work as they should.
+
+
+#### Test link/button - Home Page
+
+When you click on the link/button on the Home Page, you will be taken to the page where there are more facts about the Maine Coon, that is, on the About The Maine Coon page (about_the_mc.html).
+
+The link/button works as it should.
+
+
+#### Test links - Before You Buy A Cat Page
+
+| Link | Action |
+|------|--------|
+| Before You Make A Decision | When you click on the link, you will be taken to the Things to think about before you make a decision section on the page |
+| Before You Buy A Cat | When you click on the link, you will be taken to the Things to think about before buying section of the page |
+
+The links on the Before You Buy A Cat page are working properly.
+
+
+#### Test links - About The Maine Coon Page
+
+| Link | Action |
+|------|--------|
+| Origin | Link that takes you to the Origin section of the page |
+| Appearance | Link that takes you to the Appearance section of the page |
+|Personality | Link that takes you to the Personality section of the page |
+| Health | Link that takes you to the Health section of the page |
+| Nutrition And Feeding | Link that takes you to the Nutrition And Feeding section of the page |
+| Fur Care | Link that takes you to the Fur Care section of the page |
+| Child Friendliness | Link that takes you to the Child Friendliness section of the page |
+
+The links on the About The Maine Coon Page are working properly. When it comes to the last two links, clicking on them does not take you to exactly the right place on the page (depending on the type of device/screen size used). Something that I assume is due to the page being too short. In any case, the linking itself is correct also for the last two sections.
+
+#### Test form - Contact Page
+
+![Image of Contact page form](docs/screenshots/contact_page/form_768px+.jpg)
+
+If you try to send the form without filling in all the fields, you get an error message (which points to the first field that is not filled in). The error message appears regardless of which field it is that has not been filled in.
+
+![Image of Contact page form - error message - nothing filled out](docs/screenshots/contact_page/test/contact_error_message_full_name.jpg)
+![Image of Contact page form - error message -pointing to email address](docs/screenshots/contact_page/test/contact_error_message_email_address.jpg)
+![Image of Contact page form - error message -pointing to message](docs/screenshots/contact_page/test/contact_error_message_message.jpg)
+
+If you fill in all the fields and click on the Send Message button, you end up on a page (contact_confirmation.html) that shows that the message has been sent.
+
+![Image of Contact confirmation page - message](docs/screenshots/contact_page/test/contact_confirmation.jpg)
+
+#### Test form - Newsletter Page
+
+![Image of Contact page form](docs/screenshots/newsletter_page/test/newsletter_form.jpg)
+
+If you try to send the form without filling in all the fields, you get an error message (which points to the first field that is not filled in). The error message appears regardless of which field it is that has not been filled in.
+
+![Image of Contact page form - error message - nothing filled out](docs/screenshots/newsletter_page/test/newsletter_error_message_full_name.jpg)
+![Image of Contact page form - error message -pointing to email address](docs/screenshots/newsletter_page/test/newsletter_error_message_email_address.jpg)
+
+If you fill in all the fields and click on the Send Message button, you end up on a page (newsletter_confirmation.html) that shows that the message has been sent.
+
+![Image of Newsletter confirmation page - message](docs/screenshots/newsletter_page/test/newsletter_confirmation.jpg)
 
 ### Bugs
 
 
 ### Validation
-
 
 #### HTML
 
@@ -511,8 +612,10 @@ Link to the project - https://alexandrah-code.github.io/ms1-MaineCoon/
 ## Credits
 [(Back to top)](#index--table-of-contents)
 
-### Content
+### Facts
 
+  The text on the Before You Buy A Cat page comes from [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/).
+  The text on About The Maine Coon page comes from [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
 
-### Media And Images
+### Images
 
