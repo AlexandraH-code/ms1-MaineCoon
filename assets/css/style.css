@@ -68,6 +68,7 @@ p {
 
 #navbar .logo {
     width: 30px;
+    height: 30px;
 }
 
 #navbar li * {
@@ -86,6 +87,11 @@ p {
     /*margin-left: 10px;
     margin-right: 10px;*/
     padding-top: 30px;
+}
+
+#header .index_image {
+    width: 100%;
+    height: auto;
 }
 
 /* Styling of lists and links in the header */
