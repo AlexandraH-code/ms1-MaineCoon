@@ -70,10 +70,10 @@ p {
 
 /* Image on the start page */ 
 #header .index_image {
-    width: 100px;
-    height: 100px;
-    /*max-width: 100%;
-    height: auto;*/
+    /*width: 100px;
+    height: 100px;*/
+    max-width: 100%;
+    height: auto;
 }
 
 /* Styling of lists and links in the header */
