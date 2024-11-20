@@ -34,9 +34,8 @@
       * [Newsletter page](#newsletter-page)
     * [Features Left to Implement](#features-left-to-implement)
   * [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used)
-    * [Programs Used](#programs-used)
-    * [Other Resources](#other-resources)
+    * [Languages](#languages)
+    * [Programs And Other Resources](#programs-and-other-resources)
   * [Testing](#testing)
     * [User Story Testing](#user-story-testing)
     * [Manual Testing](#manual-testing)
@@ -65,15 +64,15 @@ Maine Coon Facts is a site where you will find
 
 
 ## User Goals and User Stories
+[(Back to top)](#index--table-of-contents)
+
   ### External User Goals
-  [(Back to top)](#index--table-of-contents)
 
   * Find information about what you should think about if you are interested in buying a Maine Coon.
   * Find information about the Maine Coon cat breed.
   * Look at pictures of Maine Coons
 
   ### Site owner goals
-  [(Back to top)](#index--table-of-contents)
 
   * Spark interest in the Maine Coon cat breed.
   * Inform about what you need to think about before buying a Maine Coon.
@@ -81,7 +80,7 @@ Maine Coon Facts is a site where you will find
   * Provide images of the Maine Coon cat breed (both adult cat and kitten images).
 
   ### User Stories
-  [(Back to top)](#index--table-of-contents)
+
   * As a site visitor, I want it to be easy to navigate, to have clear headings so that it is easy to find the information I am looking for.
 
   * As a site visitor, I want it to have a layout that allows it (the page) to be used on any screen type, so that I am not dependent on a certain kind of device.
@@ -98,8 +97,9 @@ Maine Coon Facts is a site where you will find
 
 
 ## Design Of The Website
+[(Back to top)](#index--table-of-contents)
+
   ### Structure
-  [(Back to top)](#index--table-of-contents)
   
   I have chosen to structure my website as follows.
   
@@ -118,7 +118,6 @@ Maine Coon Facts is a site where you will find
   At the bottom of the page there is a footer. In the footer there are links to social media (Facebook and Instagram) as well as a link to a page where you can use a form to sign up for a newsletter.
 
   ### Wireframes
-  [(Back to top)](#index--table-of-contents)
 
   I have created the wireframes in Balsamiq. The final design doesn't match my wireframes exactly. However, they show how I intended to lay out the design of my site. I have also renamed two of the pages during the process, Good to know is now called Before You Buy A Cat and Facts is now called About The Maine Coon. I have made wireframes for mobile, tablet and desktop screen sizes.
 
@@ -165,7 +164,6 @@ Maine Coon Facts is a site where you will find
   </details>
 
   ### Colors
-  [(Back to top)](#index--table-of-contents)
 
   I wanted to use natural colors. To get an idea of ​​what colors to use, I uploaded a picture of my Maine Coon Sunbeam to [Shutterstock's Color Palette Generator](https://www.shutterstock.com/sv/colors/color-palette-generator). In the image below, you can see the color palette that was generated after my image.
 
@@ -190,7 +188,6 @@ Maine Coon Facts is a site where you will find
   * Light brown - #6F573C (on headings)
 
   ### Fonts
-  [(Back to top)](#index--table-of-contents)
 
   To figure out which fonts to use, I looked around a bit on the internet for fonts. I then found [Easil's “The Ultimate Free Font Pairing List”](https://about.easil.com/free-font-pairing-guide-templates/). Here I looked through the different options that were available. I came to the conclusion that I wanted a slightly "funnier" font that stands out on the headings and an easy-to-read font on other text. The option that stuck with me was the Berkshire Swash paired with Raleway or Oswald. on headings and Raleway or Oswald on other text. The final choice was to use Berkshire Swash on all the headings and Raleway on all the other text The fonts can be found at [Google Fonts](https://fonts.google.com/).
 
@@ -199,7 +196,7 @@ Maine Coon Facts is a site where you will find
   [Raleway](https://fonts.google.com/specimen/Raleway)
 
   ### Logo, Icons, Images and Text
-  [(Back to top)](#index--table-of-contents)
+
   #### Logo
 
   I have chosen to have a logo in the menu bar. The logo is created using [Favicon](https://favicon.io/favicon-converter/) (where I uploaded an image of my Maine Coon Sunbeam).
@@ -228,9 +225,11 @@ Maine Coon Facts is a site where you will find
   The text on the Before You Buy A Cat page comes from [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/) and the text on About The Maine Coon page comes from [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
 
 ## Features
+[(Back to top)](#index--table-of-contents)
+
   ### Existing Features
+
   #### Header
-  [(Back to top)](#index--table-of-contents)
 
   In the header there is a navbar consisting of a logo and links to the website's various pages (HOME, BEFORE YOU BUY A CAT, ABOUT THE MAINE COON, GALLERY and CONTACT). 
 
@@ -250,8 +249,9 @@ Maine Coon Facts is a site where you will find
 
   ![Image of the navbar on screens that are smaller than 1024 px](docs/screenshots/navbar_small_screens.jpg)
 
+  In order to solve so that the menu toggles on small screens, I am using a JavaScript here. (The JavaScript was used in the Boardwalk Games Walkthrough)
+
   #### Footer
-  [(Back to top)](#index--table-of-contents)
 
   The footer consists of two icons (one for Facebook and one for Instagram) and a SIGN UP FOR OUR NEWSLETTER link (goes to a page where you, via a form, can sign up for the page's newsletter).
 
@@ -262,7 +262,6 @@ Maine Coon Facts is a site where you will find
   ![Image of the footer](docs/screenshots/footer_hover.jpg)
 
   #### Home Page
-  [(Back to top)](#index--table-of-contents)
 
   The home page consists of the following parts (besides the navbar and footer), header and main.
 
@@ -295,7 +294,6 @@ Maine Coon Facts is a site where you will find
   ![Image of button showing hover effect](docs/screenshots/home_page/home_button_hover.jpg)
 
   #### Before You Buy A Cat Page
-  [(Back to top)](#index--table-of-contents)
 
   Before You Buy A Cat page consists of the following parts (besides navbar and footer): header and main.
 
@@ -324,7 +322,6 @@ Maine Coon Facts is a site where you will find
   The section is longer but I have chosen to include only two pictures of it here.
 
   #### About The Maine Coon Page
-  [(Back to top)](#index--table-of-contents)
 
   About The Maine Coon page consists of the following parts (besides navbar and footer): header and main.
 
@@ -349,7 +346,6 @@ Maine Coon Facts is a site where you will find
   After Origin, the other sections follow. But I have chosen to only include images of the first section here.
 
   #### Gallery Page
-  [(Back to top)](#index--table-of-contents)
 
   Gallery consists of the following parts (besides navbar and footer): header and main.
 
@@ -374,7 +370,6 @@ Maine Coon Facts is a site where you will find
   The images above show a part of the Gallery page.
 
   #### Contact Page
-  [(Back to top)](#index--table-of-contents)
 
   Gallery consists of the following parts (besides navbar and footer): header and main.
 
@@ -399,7 +394,6 @@ Maine Coon Facts is a site where you will find
   ![Image of Contact page - form - button hover](docs/screenshots/contact_page/button_hover.jpg)
 
   #### Newsletter Page
-  [(Back to top)](#index--table-of-contents)
 
   Gallery consists of the following parts (besides navbar and footer): header and main.
 
@@ -424,7 +418,6 @@ Maine Coon Facts is a site where you will find
   ![Image of Newsletter page - form - button hover](docs/screenshots/newsletter_page/button_hover.jpg)
 
   ### Features Left To Implement
-  [(Back to top)](#index--table-of-contents)
 
   There are two features that I think could be added to the site in the future.
 
@@ -434,35 +427,65 @@ Maine Coon Facts is a site where you will find
 
 ## Technologies Used
 [(Back to top)](#index--table-of-contents)
-### Languages Used
-[(Back to top)](#index--table-of-contents)
-### Programs Used
-[(Back to top)](#index--table-of-contents)
-### Other Resources
-[(Back to top)](#index--table-of-contents)
+
+### Languages
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Programs And Other Resources
+
+* [Responsinator](http://www.responsinator.com/) - Used to check how the site looks on different devices and how responsive it is
+* [Am I Responsive](https://amiresponsive.co.uk/) - Used to check how the site looks on different devices and how responsive it is
+* [tinypng](https://tinypng.com/) - Used to compress images
+* [HTML Validator](https://validator.w3.org/nu/) - Used to validate the HTML files
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) - Used to check the color contrast
+* [Bootstrap, v5.3](https://getbootstrap.com/) - Used Boostrap to structure the pages and found parts for some functions here
+  * [Navbar](https://getbootstrap.com/docs/5.3/components/navbar/#nav) - Started from Bootstrap's navbar but modified it to fit my site.
+  * [Form control](https://getbootstrap.com/docs/5.3/forms/form-control/) - Contact and Newsletter page
+  * [Button design](https://getbootstrap.com/docs/5.3/components/buttons/#outline-buttons) - Used for the design of the buttons on the Start, Contact and Newsletter page.
+* [Windows Photo-app](https://www.microsoft.com/en-us/windows/photo-movie-editor?r=1) - Used to resize images as well as to remove the background of the image on the Home page.
+* [Shutterstock's color palette generator](https://www.shutterstock.com/sv/colors/color-palette-generator) - Used to create a color palette for the page.
+* [Favicon](https://favicon.io/favicon-converter/) - Used to create the logo in the navbar.
+* [Fontawsome](https://fontawesome.com/) - The icons for Facebook and Instagram in the footer and the paw icon in the list on the home page come from here.
+  * [Facebook icon](https://fontawesome.com/search?q=facebook&o=r&m=free)
+  * [Instagram icon](https://fontawesome.com/search?q=instagram&o=r&m=free)
+  * [Paw icon](https://fontawesome.com/search?q=paw&o=r&m=free) 
 
 ## Testing
 [(Back to top)](#index--table-of-contents)
+
 ### User Story Testing
-[(Back to top)](#index--table-of-contents)
+
+
 ### Manual Testing
-[(Back to top)](#index--table-of-contents)
+
+
 ### Bugs
-[(Back to top)](#index--table-of-contents)
+
+
 ### Validation
-[(Back to top)](#index--table-of-contents)
+
+
 #### HTML
-[(Back to top)](#index--table-of-contents)
+
+
 #### CSS
-[(Back to top)](#index--table-of-contents)
+
+
 ### Accessibility Testing
-[(Back to top)](#index--table-of-contents)
+
+
 ### Lighthouse Testing
-[(Back to top)](#index--table-of-contents)
+
+
 ### Device Testing
-[(Back to top)](#index--table-of-contents)
+
+
 ### Browser Compatibility
-[(Back to top)](#index--table-of-contents)
+
 
 ## Deployment
 [(Back to top)](#index--table-of-contents)
@@ -480,7 +503,7 @@ Link to the project - https://alexandrah-code.github.io/ms1-MaineCoon/
 [(Back to top)](#index--table-of-contents)
 
 ### Content
-[(Back to top)](#index--table-of-contents)
+
 
 ### Media And Images
-[(Back to top)](#index--table-of-contents)
+
