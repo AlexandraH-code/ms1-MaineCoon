@@ -459,6 +459,15 @@ Maine Coon Facts is a site where you will find
 
 ### User Story Testing
 
+| Feature | User Story | Expected Result | Pass |
+|---------|------------|-----------------|------|
+| Navbar  | As a site visitor, I want it to be easy to navigate, to have clear headings so that it is easy to find the information I am looking for. | It is easy to navigate on the site and it has headings that clearly describes what you can expect for information. | &check; |
+| Entire website | As a site visitor, I want it to have a layout that allows it (the page) to be used on any screen type, so that I am not dependent on a certain kind of device. | That the site is responsive, that you can visit the site from any type of device and any screen size. | &check; |
+| Before You Buy A Cat page | As a first-time buyer, I want to be able to easily find information about what I need to consider before buying a cat so that I can be as well prepared as possible in the event of a purchase. | The site offers a page where you can find information about what you should think about before you buy a Maine Coon. | &check; |
+| About The Maine Coon page | As a potential Maine Coon buyer, I want to be able to find specific information about the Maine Coon, such as temperament, appearance, specific breed traits, if Maine Coons have any diseases that you need to be aware of, etc., so that I can determine if it is a breed for me. | The site offers a page where you can find more specific information about the Maine Coon. | &check; |
+| Gallery page | As a potential Maine Coon buyer, I would like to be able to see pictures of Maine Coons (of different ages and colors) to see what varieties there are. | The site offers a page where you can find images of Maine Coons (both adult cats and kittens). | &check; |
+| Contact page and Footer | As a site visitor, I want it to be possible to contact the page owner so that I can get in touch with him/her if I have any questions/opinions. | The site offers a contact form where you can send a message to the site owner. There is also links to social media in the footer (a potential way to contact the site owner). | &check; |
+| Newsletter page | As a Maine Coon owner, I want it to be possible to sign up for a newsletter, where you can find out more about Maine Coons, such as advice and tips. This is to be able to gain as much knowledge as possible about the breed and cat ownership. | In the footer you can click on a Sign up for our newsletter link. The link takes you to a form where you can sign up for the newsletter. | &check; |
 
 ### Manual Testing
 
