@@ -29,11 +29,12 @@
 
 <body class="d-flex flex-column min-vh-100">
   <!-- Navigation -->
-  <!-- Navbar with dropdown link from Bootstrap-->
+  <!-- Navbar from Bootstrap, https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
   <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-        <img src="assets/images/20240814_143412-ikon-removebg-preview.png" alt="Maine Coon Facts logo" class="logo">
+        <img src="assets/images/20240814_143412-ikon-removebg-preview.png" alt="Maine Coon Facts logo" class="logo"
+          aria-label="link to Home page">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,19 +43,20 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html" aria-label="link to Home page">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="before_cat.html">Before You Buy A Cat</a>
+            <a class="nav-link active" aria-current="page" href="before_cat.html"
+              aria-label="link to Before You Buy A Cat page">Before You Buy A Cat</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about_the_mc.html">About The Maine Coon</a>
+            <a class="nav-link" href="about_the_mc.html" aria-label="link to About The Maine Coon page">About The Maine Coon</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="gallery.html" aria-label="link to Gallery page">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html" aria-label="link to Contact page">Contact</a>
           </li>
         </ul>
       </div>
@@ -63,14 +65,15 @@
 
   <!-- Header -->
   <header id="header" class="container section">
-    <!-- is section needed? -->
     <div class="row justify-content-center">
       <div class="col-12 col-lg-6">
         <h1 class="display-3">Before You Buy A Cat</h1><br>
         <div class="before_cat_links">
           <ul>
-            <li><a href="before_cat.html#before_cat_decision">Before You Make A Decision</a></li>
-            <li><a href="before_cat.html#before_cat_buying">Before You Buy A Cat</a></li>  
+            <li><a href="before_cat.html#before_cat_decision"
+                aria-label="Link to Before You Make A Decision section">Before You Make A Decision</a></li>
+            <li><a href="before_cat.html#before_cat_buying" aria-label="Link to Before You Buy A Cat section">Before You
+                Buy A Cat</a></li>
           </ul>
         </div>
       </div>
@@ -83,28 +86,28 @@
   <main>
     <!-- Before Decision section -->
     <section id="before_cat_decision" class="contatiner section">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-6">
-              <p class="lead"><em>Before you buy a Maine Coon, there are several things that you need to consider.</em></p>
-              <h2>Things to think about before you make a decision</h2>
-              <ul>
-                <li>Are you prepared to take responsibility for your cat for many years to come? If the Maine Coon is
-                  healthy, it can live for 15-20 years.</li>
-                <li>Do you know the basic needs of cats? It is well worth studying or taking a course before you decide.
-                </li>
-                <li>Do you have enough time for your cat? The Maine Coon is a social breed that prefers to have company
-                  around the clock.</li>
-                <li>Do you have enough space for a cat? The Maine Coon needs to get enough exercise. Therefore, it needs
-                  access to claw trees and high places, so that it has enough room to run. It loves interactive games and
-                  enjoys playing with all family members.</li>
-                <li>Do you have the financial means to have a cat? In addition to the running costs such as cat food, cat
-                  litter, insurance, vaccinations, there are additional costs for a veterinarian in the event of illness and
-                  possible accidents, etc.</li>
-                <li>Do you know the rules for caring for cats? To find out what regulations exist, you can contact the
-                  authority responsible for regulations concerning pets where you live.</li>
-              </ul>
-            </div>
-          </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <p class="lead"><em>Before you buy a Maine Coon, there are several things that you need to consider.</em></p>
+          <h2>Things to think about before you make a decision</h2>
+          <ul>
+            <li>Are you prepared to take responsibility for your cat for many years to come? If the Maine Coon is
+              healthy, it can live for 15-20 years.</li>
+            <li>Do you know the basic needs of cats? It is well worth studying or taking a course before you decide.
+            </li>
+            <li>Do you have enough time for your cat? The Maine Coon is a social breed that prefers to have company
+              around the clock.</li>
+            <li>Do you have enough space for a cat? The Maine Coon needs to get enough exercise. Therefore, it needs
+              access to claw trees and high places, so that it has enough room to run. It loves interactive games and
+              enjoys playing with all family members.</li>
+            <li>Do you have the financial means to have a cat? In addition to the running costs such as cat food, cat
+              litter, insurance, vaccinations, there are additional costs for a veterinarian in the event of illness and
+              possible accidents, etc.</li>
+            <li>Do you know the rules for caring for cats? To find out what regulations exist, you can contact the
+              authority responsible for regulations concerning pets where you live.</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Before Buying section -->
@@ -186,7 +189,6 @@
   </main>
 
   <!-- Footer section -->
-  <!-- mt-auto added to push footer to the bottom of the page -->
   <footer id="social_links" class="mt-auto">
     <div class="container section">
       <div class="row justify-content-center grid column-gap-5">
@@ -201,7 +203,7 @@
           </a>
         </div>
         <div class="col-12 text-center mb-3 mt-2">
-          <a href="newsletter.html">Sign up for our newsletter</a>
+          <a href="newsletter.html" aria-label="link to Newsletter page">Sign up for our newsletter</a>
         </div>
       </div>
     </div>

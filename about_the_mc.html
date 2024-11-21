@@ -25,15 +25,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <!-- Navbar with dropdown link from Bootstrap-->
+    <!-- Navbar from Bootstrap, https://getbootstrap.com/docs/5.3/components/navbar/#nav -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/20240814_143412-ikon-removebg-preview.png" alt="Maine Coon Facts logo"
-                    class="logo">
+                    class="logo" aria-label="link to Home page">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,19 +41,21 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html" aria-label="link to Home page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="before_cat.html">Before You Buy A Cat</a>
+                        <a class="nav-link" href="before_cat.html" aria-label="link to Before You Buy A Cat page">Before
+                            You Buy A Cat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="about_the_mc.html">About The Maine Coon</a>
+                        <a class="nav-link active" aria-current="page" href="about_the_mc.html"
+                            aria-label="link to About The Maine Coon page">About The Maine Coon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="gallery.html" aria-label="link to Gallery page">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html" aria-label="link to Contact page">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,13 +69,14 @@
                 <h1 class="display-3">About The Maine Coon</h1><br>
                 <div class="about_the_mc_links">
                     <ul>
-                        <li><a href="#origin">Origin</a></li>
-                        <li><a href="#appearance">Appearance</a></li>
-                        <li><a href="#personality">Personality</a></li>
-                        <li><a href="#health">Health</a></li>
-                        <li><a href="#nutrition_and_feeding">Nutrition And feeding</a></li>
-                        <li><a href="#fur_care">Fur Care</a></li>
-                        <li><a href="#child_friendliness">Child Friendliness</a></li>
+                        <li><a href="#origin" aria-label="link to Origin section">Origin</a></li>
+                        <li><a href="#appearance" aria-label="link to Appearance section">Appearance</a></li>
+                        <li><a href="#personality" aria-label="link to Personality section">Personality</a></li>
+                        <li><a href="#health" aria-label="link to Health section">Health</a></li>
+                        <li><a href="#nutrition_and_feeding"
+                                aria-label="link to Nutrition And feeding section">Nutrition And feeding</a></li>
+                        <li><a href="#fur_care" aria-label="link to Fur Care section">Fur Care</a></li>
+                        <li><a href="#child_friendliness" aria-label="link to Child Friendliness section">Child Friendliness</a></li>
                     </ul>
                 </div>
             </div>
@@ -192,22 +194,23 @@
     </main>
 
     <!-- Footer section -->
-    <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="social_links" class="mt-auto">
         <div class="container section">
             <div class="row justify-content-center grid column-gap-5">
                 <div class="col-12 col-lg-6 text-center mt-3">
                     <!-- Font Awesome icon -->
-                    <a href="https://www.facebook.com" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)"
-                        rel="noopener"><i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com" target="_blank"
+                        aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-facebook"></i>
                     </a>
                     <!-- Font Awesome icon -->
-                    <a href="https://www.instagram.com" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)"
-                        rel="noopener"><i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com" target="_blank"
+                        aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                            class="fa-brands fa-instagram"></i>
                     </a>
                 </div>
                 <div class="col-12 text-center mb-3 mt-2">
-                    <a href="newsletter.html">Sign up for our newsletter</a>
+                    <a href="newsletter.html" aria-label="link to Newsletter page">Sign up for our newsletter</a>
                 </div>
             </div>
         </div>
@@ -222,28 +225,28 @@
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/a8d1dc1333.js" crossorigin="anonymous"></script>
 
-  <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links.-->
-  <!-- Was used in the Boardwalk Games Walkthrough project. -->
-  <script>
-    document
-      .querySelectorAll(".navbar-collapse .nav-link")
-      .forEach((link) => {
-        link.addEventListener("click", function (e) {
-          let section = document.querySelector(e.target.getAttribute("href"));
-          if (section) {
-            e.preventDefault(); // Prevent default anchor click behavior
-            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-            window.scroll({
-              top: section.offsetTop - navbarHeight, // Adjust for navbar height
-              behavior: "smooth",
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links.-->
+    <!-- Was used in the Boardwalk Games Walkthrough project. -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
             });
-            document
-              .querySelector(".navbar-collapse")
-              .classList.remove("show"); // Collapse navbar
-          }
-        });
-      });
-  </script>
+    </script>
 </body>
 
 </html>
