@@ -458,7 +458,7 @@ Maine Coon Facts is a site where you will find
 ### Programs And Other Resources
 
 * [Responsinator](http://www.responsinator.com/) - Used to check how the site looks on different devices and how responsive it is
-* [Am I Responsive](https://amiresponsive.co.uk/) - Used to check how the site looks on different devices and how responsive it is
+* [Am I Responsive](https://ui.dev/amiresponsive) - Used to check how the site looks on different devices and how responsive it is
 * [tinypng](https://tinypng.com/) - Used to compress images
 * [HTML Validator](https://validator.w3.org/nu/) - Used to validate the HTML files
 * [CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate the CSS file
@@ -744,7 +744,7 @@ I have tested the site on the devices below to ensure that the site works as it 
 * Samsung Galaxy S24 Ultra
 * Samsung Galaxy Tab S8
 
-I have also tested my site on [Am I Responsive](https://amiresponsive.co.uk/) and [Responsinator](http://www.responsinator.com/) to see how it looks on other devices and if it is responsive.
+I have also tested my site on [Am I Responsive](https://ui.dev/amiresponsive) and [Responsinator](http://www.responsinator.com/) to see how it looks on other devices and if it is responsive.
 
 
 ### Browser Compatibility
@@ -809,7 +809,7 @@ The other images have been downloaded from Pixabay and Free Images.
 ## Acknowledgments
 [(Back to top)](#index--table-of-contents)
 
-Thanks to my mentor Antonio for advice and tips during the project.
+Thanks to my mentor Antonio Rodriguez for advice and tips during the project.
 
 
  
