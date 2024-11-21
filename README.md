@@ -51,6 +51,8 @@
       * [HTML](#html)
       * [CSS](#css)
     * [Lighthouse Testing](#lighthouse-testing)
+      * [Desktop](#desktop)
+      * [Mobile](#mobile)
     * [Device Testing](#device-testing)
     * [Browser Compatibility](#browser-compatibility)
 
@@ -619,56 +621,56 @@ The CSS file went through the W3C CSS Validator without showing any errors.
   <details>
   <summary>Home Page</summary>
 
-  ![Home Page](docs/wireframes/home_page_20241118.jpg)
+  ![Home Page](docs/validation/lighthouse/desktop/Home_Page_desktop.jpg)
   
   </details>
   
   <details>
   <summary>Before You Buy A Cat Page</summary>
 
-  ![Before You Buy A Cat Page](docs/wireframes/home_page_20241118.jpg)
+  ![Before You Buy A Cat Page](docs/validation/lighthouse/desktop/Before_You_Buy_A_Page_desktop.jpg)
   
   </details>
 
   <details>
   <summary>About The Maine Coon Page</summary>
 
-  ![About The Maine Coon Page](docs/wireframes/home_page_20241118.jpg)
+  ![About The Maine Coon Page](docs/validation/lighthouse/desktop/About_The_Maine_Coon_Page_desktop.jpg)
   
   </details>
 
   <details>
   <summary>Gallery Page</summary>
 
-  ![Gallery Page](docs/wireframes/home_page_20241118.jpg)
+  ![Gallery Page](docs/validation/lighthouse/desktop/Gallery_Page_desktop.jpg)
   
   </details>
 
   <details>
   <summary>Contact Page</summary>
 
-  ![Contact Page](docs/wireframes/home_page_20241118.jpg)
+  ![Contact Page](docs/validation/lighthouse/desktop/Contact_Page_desktop.jpg)
   
   </details>
 
   <details>
   <summary>Contact Confirmation Page</summary>
 
-  ![Contact Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  ![Contact Confirmation Page](docs/validation/lighthouse/desktop/Contact_Confirmation_Page_desktop.jpg)
   
   </details>
 
   <details>
   <summary>Newsletter Page</summary>
 
-  ![Newsletter Page](docs/wireframes/home_page_20241118.jpg)
+  ![Newsletter Page](docs/validation/lighthouse/desktop/Newsletter_Page_desktop.jpg)
   
   </details>
 
   <details>
   <summary>Newsletter Confirmation Page</summary>
 
-  ![Newsletter Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  ![Newsletter Confirmation Page](docs/validation/lighthouse/desktop/Newsletter_Confirmation_Page_desktop.jpg)
   
   </details>
 
@@ -677,56 +679,56 @@ The CSS file went through the W3C CSS Validator without showing any errors.
   <details>
   <summary>Home Page</summary>
 
-  ![Home Page](docs/wireframes/home_page_20241118.jpg)
+  ![Home Page](docs/validation/lighthouse/mobile/Home_Page_mobile.jpg)
   
   </details>
   
   <details>
   <summary>Before You Buy A Cat Page</summary>
 
-  ![Before You Buy A Cat Page](docs/wireframes/home_page_20241118.jpg)
+  ![Before You Buy A Cat Page](docs/validation/lighthouse/mobile/Before_You_Buy_A_Page_mobile.jpg)
   
   </details>
 
   <details>
   <summary>About The Maine Coon Page</summary>
 
-  ![About The Maine Coon Page](docs/wireframes/home_page_20241118.jpg)
+  ![About The Maine Coon Page](docs/validation/lighthouse/mobile/About_The_Maine_Coon_Page_mobile.jpg)
   
   </details>
 
   <details>
   <summary>Gallery Page</summary>
 
-  ![Gallery Page](docs/wireframes/home_page_20241118.jpg)
+  ![Gallery Page](docs/validation/lighthouse/mobile/Gallery_Page_mobile.jpg)
   
   </details>
 
   <details>
   <summary>Contact Page</summary>
 
-  ![Contact Page](docs/wireframes/home_page_20241118.jpg)
+  ![Contact Page](docs/validation/lighthouse/mobile/Contact_Page_mobile.jpg)
   
   </details>
 
   <details>
   <summary>Contact Confirmation Page</summary>
 
-  ![Contact Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  ![Contact Confirmation Page](docs/validation/lighthouse/mobile/Contact_Confirmation_Page_mobile.jpg)
   
   </details>
 
   <details>
   <summary>Newsletter Page</summary>
 
-  ![Newsletter Page](docs/wireframes/home_page_20241118.jpg)
+  ![Newsletter Page](docs/validation/lighthouse/mobile/Newsletter_Page_mobile.jpg)
   
   </details>
 
   <details>
   <summary>Newsletter Confirmation Page</summary>
 
-  ![Newsletter Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  ![Newsletter Confirmation Page](docs/validation/lighthouse/mobile/Newsletter_Confirmation_Page_mobile.jpg)
   
   </details>
 
