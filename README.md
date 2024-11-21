@@ -50,7 +50,6 @@
     * [Validation](#validation)
       * [HTML](#html)
       * [CSS](#css)
-    * [Accessibility Testing](#accessibility-testing)
     * [Lighthouse Testing](#lighthouse-testing)
     * [Device Testing](#device-testing)
     * [Browser Compatibility](#browser-compatibility)
@@ -576,19 +575,160 @@ If you fill in all the fields and click on the Send Message button, you end up o
 
 ### Bugs
 
+| Problem | Solution | Source of help |
+|---------|----------|----------------|
+| Images weren't responsive (didn't keep up with screen size) | Inserted img { width: 100%; height: auto;} in the CSS file | [W3schools - Responsive Web Design - Images](https://www.w3schools.com/css/css_rwd_images.asp) and [W3Schools - CSS Styling Images](https://www.w3schools.com/css/css3_images.asp) |
+| When you click on one of the links on the About The Maine Coon page, you end up under the heading (navbars hide the heading). |I add padding-top corresponding to the height of the navbar (in my case 68px) to the section | Reminds me we had similar issues in the Boardwalk Games walkthrough. So I looked at the code of that project to get an idea of ​​how to solve the problem. |
+| After I put information under Sections it looks like the pages move sideways when going from one page to another. | Added overflow-y:scroll; under html in the css file | [Stack Overflow - Website layout moving slightly between pages - how to stop it](https://stackoverflow.com/questions/8975174/website-layout-moving-slightly-between-pages-how-to-stop-it) and [Stack Overflow - How to prevent scrollbar from repositioning web page?](https://stackoverflow.com/questions/1417934/how-to-prevent-scrollbar-from-repositioning-web-page) |
 
 ### Validation
 
 #### HTML
 
+All pages passed the W3C Markup Validator without any errors.
+
+[Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Findex.html)
+
+[Before You Buy A Cat Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fbefore_cat.html)
+
+[About The Maine Coon Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fabout_the_mc.html)
+
+[Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fgallery.html)
+
+[Contact Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fcontact.html)
+
+[Contact Confirmation Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fcontact_confirmation.html)
+
+[Newsletter Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fnewsletter.html)
+
+[Newsletter Confirmation Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Fnewsletter_confirmation.html)
 
 #### CSS
 
+The CSS file went through the W3C CSS Validator without showing any errors.
 
-### Accessibility Testing
+![Image of CSS validation](docs/validation/css/CSS_check_textarea.jpg)
+
+[Link to W3C's CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Falexandrah-code.github.io%2Fms1-MaineCoon%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
 
 ### Lighthouse Testing
+
+#### Desktop
+
+  <details>
+  <summary>Home Page</summary>
+
+  ![Home Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+  
+  <details>
+  <summary>Before You Buy A Cat Page</summary>
+
+  ![Before You Buy A Cat Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>About The Maine Coon Page</summary>
+
+  ![About The Maine Coon Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Gallery Page</summary>
+
+  ![Gallery Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Contact Page</summary>
+
+  ![Contact Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Contact Confirmation Page</summary>
+
+  ![Contact Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Newsletter Page</summary>
+
+  ![Newsletter Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Newsletter Confirmation Page</summary>
+
+  ![Newsletter Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+#### Mobile
+
+  <details>
+  <summary>Home Page</summary>
+
+  ![Home Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+  
+  <details>
+  <summary>Before You Buy A Cat Page</summary>
+
+  ![Before You Buy A Cat Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>About The Maine Coon Page</summary>
+
+  ![About The Maine Coon Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Gallery Page</summary>
+
+  ![Gallery Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Contact Page</summary>
+
+  ![Contact Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Contact Confirmation Page</summary>
+
+  ![Contact Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Newsletter Page</summary>
+
+  ![Newsletter Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
+
+  <details>
+  <summary>Newsletter Confirmation Page</summary>
+
+  ![Newsletter Confirmation Page](docs/wireframes/home_page_20241118.jpg)
+  
+  </details>
 
 
 ### Device Testing
@@ -602,10 +742,10 @@ If you fill in all the fields and click on the Send Message button, you end up o
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+* The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  * In the GitHub repository, navigate to the Settings tab 
+  * From the source section drop-down menu, select the Master Branch
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 Link to the project - https://alexandrah-code.github.io/ms1-MaineCoon/
 
