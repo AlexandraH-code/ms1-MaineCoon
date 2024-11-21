@@ -744,6 +744,8 @@ I have tested the site on the devices below to ensure that the site works as it 
 * Samsung Galaxy S24 Ultra
 * Samsung Galaxy Tab S8
 
+I have also tested my site on [Am I Responsive](https://amiresponsive.co.uk/) and [Responsinator](http://www.responsinator.com/) to see how it looks on other devices and if it is responsive.
+
 
 ### Browser Compatibility
 
