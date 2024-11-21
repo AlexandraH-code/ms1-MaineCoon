@@ -1,10 +1,11 @@
 # Maine Coon Facts
+Developer - Alexandra Holstensson
 
 [Link to the project](https://alexandrah-code.github.io/ms1-MaineCoon/)
 
 ![Screenshot from Am I Responsive](docs/screenshots/maine_coon_facts.jpg)
 
-## Index – Table of Contents
+## Table of Contents
   * [About](#about)
   * [User Goals and User Stories](#user-goals-and-user-stories)
     * [External User Goals](#external-user-goals)
@@ -61,6 +62,8 @@
   * [Credits](#credits)
     * [Facts](#facts)
     * [Images](#images)
+
+  * [Acknowledgments](#acknowledgments)
 
 ## About 
 [(Back to top)](#index--table-of-contents)
@@ -470,7 +473,8 @@ Maine Coon Facts is a site where you will find
 * [Fontawsome](https://fontawesome.com/) - The icons for Facebook and Instagram in the footer and the paw icon in the list on the home page come from here.
   * [Facebook icon](https://fontawesome.com/search?q=facebook&o=r&m=free)
   * [Instagram icon](https://fontawesome.com/search?q=instagram&o=r&m=free)
-  * [Paw icon](https://fontawesome.com/search?q=paw&o=r&m=free) 
+  * [Paw icon](https://fontawesome.com/search?q=paw&o=r&m=free)
+* [Google Translate](https://translate.google.com/) - Used for translating Swedish texts into English
 
 
 ## Testing
@@ -735,19 +739,34 @@ The CSS file went through the W3C CSS Validator without showing any errors.
 
 ### Device Testing
 
+I have tested the site on the devices below to ensure that the site works as it should and is responsive. The site has worked properly on both devices.
+
+* Samsung Galaxy S24 Ultra
+* Samsung Galaxy Tab S8
+
 
 ### Browser Compatibility
+
+In addition to Google Chrome, I have tested the website in the following browsers. The site works as well in them as it does in Google Chrome, the site is responsive and it works as it should otherwise.
+
+* Microsoft Edge
+* Opera
+* Firefox
 
 
 ## Deployment
 [(Back to top)](#index--table-of-contents)
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-* The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  * In the GitHub repository, navigate to the Settings tab 
-  * From the source section drop-down menu, select the Master Branch
-  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+This project was deployed to GitHub pages. To deploy the project, follow these steps:
+  * In the GitHub repository, navigate to the Settings tab (last option in the top menu bar)
+  * Then click on Pages in the vertical menu bar on the left.
+  * Under Build and deployment
+    * select Deploy from a branch under Source.
+    * select and main (root) under Branch.
+  * Then click on the Save button.
+  * Back in the repository, you may have to wait a while before the deployment is complete.
+  * The page can then be found under Deployments in the vertical menu bar on the right.
+  * Click on github-pages and there is a link to the page.
 
 Link to the project - https://alexandrah-code.github.io/ms1-MaineCoon/
 
@@ -756,8 +775,39 @@ Link to the project - https://alexandrah-code.github.io/ms1-MaineCoon/
 
 ### Facts
 
-  The text on the Before You Buy A Cat page comes from [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/).
-  The text on About The Maine Coon page comes from [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
+  The text on the Before You Buy A Cat page comes from the Swedish website [Maine Coon Katten](https://mainecoonkatten.se/att-t-nka-p/).
+
+  The list of bullet points on the home page (Some Shorter Facts About The Maine Coon) and the text on About The Maine Coon page comes from the Swedish website [Purina](https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon). 
+
+  I have translated the texts above into English.
 
 ### Images
 
+* The image (Sunbeam_20240624_mod_2.jpg) that is on the home page was taken by me and it is of my Maine Coon Sunbeam.
+
+The other images have been downloaded from Pixabay and Free Images.
+
+| Page | File title on the site | Downloaded From | Photographer/Owner |
+|------|------------|-----------------|--------------------|
+| Before You Buy A Cat | maine-coon-694730_640.jpg | [Pixabay](https://pixabay.com/sv/photos/maine-coon-katt-kattens-%C3%B6gon-694730/) | ClaudiaWollesen |
+| About The Maine Coon | maine-coons-kittens-1247058_1.jpg | [Free Images](https://www.freeimages.com/photo/maine-coons-kittens-1247058) | johnnyberg |
+| Gallery | cat-7436051_640.jpg | [Pixabay](https://pixabay.com/sv/photos/katt-maine-coon-kattunge-s%C3%B6t-kitty-7436051/) | miezekieze |
+| Gallery | maine-coon-7954384_640.jpg | [Pixabay](https://pixabay.com/sv/photos/maine-coon-katter-tabby-husdjur-7954384/) | miezekieze |
+| Gallery | cat-7779237_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-maine-coon-tamdjur-huskatten-7779237/) | brisch27 |
+| Gallery | maine-coon-5778153_640.jpg| [Pixabay](https://pixabay.com/sv/photos/maine-coon-katt-s%C3%A4llskapsdjur-5778153/) | Kanashi |
+| Gallery | cat-5919989_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-kattdjur-ingef%C3%A4ra-p%C3%A4ls-s%C3%B6t-5919989/) | ottawagraphics |
+| Gallery | cat-694718_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-djur-tamdjur-maine-coon-694718/) | ClaudiaWollesen |
+| Gallery | cat-7204914_640.jpg | [Pixabay](https://pixabay.com/sv/photos/katt-maine-coon-s%C3%A4llskapsdjur-7204914/) | miezekieze |
+| Gallery | cat-7762873_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-maine-coon-firande-guld-7762873/) | miezekieze |
+| Gallery | maine-coon-7947956_640.jpg| [Pixabay](https://pixabay.com/sv/photos/maine-coon-katter-kattungar-husdjur-7947956/) | miezekieze |
+| Gallery | cat-3092784_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-silver-gr%C3%A5-maine-coon-3092784/) | Lepale |
+| Gallery | cat-3092804_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-kattunge-gr%C3%A5-svart-maine-coon-3092804/) | Lepale |
+| Gallery | cat-4523687_640.jpg| [Pixabay](https://pixabay.com/sv/photos/katt-vit-silver-%C3%B6ga-kattdjur-4523687/) | Lepale |
+
+## Acknowledgments
+[(Back to top)](#index--table-of-contents)
+
+Thanks to my mentor Antonio for advice and tips during the project.
+
+
+ 
